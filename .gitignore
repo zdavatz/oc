@@ -1,0 +1,21 @@
+# Das fertige Blatt liegt im Repositorium, damit man es ohne Rust-Toolchain
+# herunterladen kann. Andere PDFs bleiben draussen.
+*.pdf
+!ovarian-cancer-84.pdf
+
+# Nichts davon gehoert je in ein oeffentliches Repositorium
+credentials
+token*.json
+client_secret_*.json
+*.env
+send_*.py
+
+# Erzeugte Zwischenstufen - reproduzierbar aus src/ mit `make`
+ovarian-cancer-84.html
+pruef*.png
+
+# Rust
+target/
+
+# enthaelt Mailadresse, Patientenname und Geburtsdatum - bleibt lokal
+entwurf_*.py
