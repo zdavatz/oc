@@ -90,7 +90,7 @@ pub const TITEL2: &str = "at Age 84 and Above";
 pub const UNTERTITEL: &str =
     "Survival, and what the evidence says about surgery, chemotherapy and radiation therapy";
 pub const STAND: &str =
-    "Fact sheet for the patient and her family · as of 6 September 2026 · to take along to the doctor's appointment";
+    "Fact sheet for the patient and her family · as of 10 September 2026 · to take along to the doctor's appointment";
 pub const KOPFZEILE: &str = "Ovarian Cancer at Age 84 and Above";
 
 use Block::*;
@@ -213,6 +213,12 @@ pub static DOKUMENT: &[Block] = &[
     P(&[B("Well suited to the very old."), T(" Modern techniques allow "), L("short schedules", "https://pmc.ncbi.nlm.nih.gov/articles/PMC12691232/"), T(" of one to five sessions with little toxicity – in the series above, no serious side effects were seen in patients treated to the abdomen or pelvis. Fewer visits matter when travelling to the treatment centre is itself a burden.")]),
     Klein(&[T("So radiation is not an alternative to surgery or chemotherapy for controlling the disease. It is a tool for comfort, on its own or alongside the other treatments.")]),
 
+    H2("Molecular profiling of the tumour"),
+    P(&[B("Why."), T(" Whether a PARP inhibitor is an option depends on the tumour's genetics: a BRCA1/2 mutation or homologous recombination deficiency (HRD). Profiling also shows which other driver mutations the tumour carries. It does not explain "), B("why"), T(" it mutated; it shows "), B("what"), T(" is there, and a germline blood test shows whether any of it was inherited. Ask for both.")]),
+    P(&[B("Tissue is the gold standard."), T(" A comprehensive panel such as "), L("FoundationOne CDx", "https://www.foundationmedicine.com/test/foundationone-cdx"), T(" from tumour tissue reports BRCA1/2, HRD by loss of heterozygosity, copy-number changes and tumour mutational burden reliably. Tissue can come from an archived paraffin block of an earlier operation or biopsy, from an image-guided core biopsy, or from a "), L("cell block", "https://pmc.ncbi.nlm.nih.gov/articles/PMC9376088/"), T(" made from ascites or pleural fluid. Fluid drained through a catheter for comfort can be sent to pathology at the same time; it often contains enough tumour cells for sequencing without any additional procedure.")]),
+    P(&[B("Liquid biopsy is the fallback."), T(" When no tissue can be obtained, "), L("FoundationOne Liquid CDx", "https://www.foundationmedicine.com/test/foundationone-liquid-cdx"), T(" sequences 324 genes from cell-free DNA in blood plasma. Two tubes of blood, no procedure. Its limits matter at this age: with little tumour DNA in the blood the test can be "), L("falsely negative", "https://pmc.ncbi.nlm.nih.gov/articles/PMC7519428/"), T("; it gives no HRD score; and age-related mutations of blood stem cells (clonal haematopoiesis, common over 80) can be mistaken for tumour mutations. A negative liquid result therefore excludes nothing.")]),
+    Klein(&[T("Practical order: archived tissue if any exists; otherwise fluid or a biopsy if the patient is fit enough; liquid biopsy if not. Reports take two to three weeks. Insurers do not always cover the test; ask for prior approval or expect a bill in the low thousands.")]),
+
     H2("Putting it together for an 84-year-old"),
     P(&[T("The question is fitness, not age. Guidelines from NCCN, ESGO-ESMO and the "), L("French SOFOG-GINECO-FRANCOGYN group", "https://pmc.ncbi.nlm.nih.gov/articles/PMC8909025/"), T(" recommend a geriatric screen – G8, the Geriatric Vulnerability Score, or a full geriatric assessment – to sort patients into three groups.")]),
     Tab(&T_GRUPPEN),
@@ -278,6 +284,14 @@ pub static QUELLEN: &[(&str, Verweis)] = &[
      Verweis { text: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7897761/", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7897761/" }),
     ("The Role of Radiotherapy in Octogenarian Cancer Patients. PMC12691232",
      Verweis { text: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12691232/", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12691232/" }),
+    ("FoundationOne CDx – comprehensive genomic profiling from tumour tissue. Foundation Medicine",
+     Verweis { text: "https://www.foundationmedicine.com/test/foundationone-cdx", url: "https://www.foundationmedicine.com/test/foundationone-cdx" }),
+    ("FoundationOne Liquid CDx – 324-gene profiling from circulating cell-free DNA. Foundation Medicine",
+     Verweis { text: "https://www.foundationmedicine.com/test/foundationone-liquid-cdx", url: "https://www.foundationmedicine.com/test/foundationone-liquid-cdx" }),
+    ("Cell block preparation from malignant effusions for molecular testing. PMC9376088",
+     Verweis { text: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9376088/", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9376088/" }),
+    ("Clonal hematopoiesis and false positives in plasma cell-free DNA testing. PMC7519428",
+     Verweis { text: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7519428/", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7519428/" }),
     ("Palliative radiotherapy for ovarian cancer. Int J Radiat Oncol Biol Phys 1987",
      Verweis { text: "https://www.sciencedirect.com/science/article/pii/0360301687902549", url: "https://www.sciencedirect.com/science/article/pii/0360301687902549" }),
 ];
