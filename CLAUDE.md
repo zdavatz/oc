@@ -50,3 +50,11 @@ touching them; its pitfalls all apply here. The two that bite first:
 Wrap measurements in `Span::N` ("12.3 months", "19.5 %") so they never break
 across lines. Change content with a small Python script that counts its
 anchor before replacing, then run `make` before committing.
+
+## Side notes outside the fact sheet
+
+`README.md` carries generic notes on molecular tumour profiling in
+Switzerland (tissue vs. ctDNA, ordering via USZ, patient-record release).
+They are not part of the document. Keep them free of any personal data:
+no patient or physician names, birth dates, addresses, or email threads.
+Only public institutional contacts and URLs.
