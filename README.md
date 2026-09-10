@@ -62,6 +62,45 @@ Sources:
 - Roche Diagnostics Switzerland, FoundationOne Liquid CDx:
   https://diagnostics.roche.com/ch/de/article-listing/foundation-one-liquid-cdx.html
 
+## Reading a hospital lab printout (notes)
+
+Generic checklist that came out of reading cumulative lab sheets for a
+patient in this age group. Not medical advice; it is a list of what to ask.
+
+- **Kidney trend first.** Creatinine and eGFR over consecutive days. A
+  doubling within days is acute kidney injury. Ask: ultrasound for
+  hydronephrosis (ovarian cancer obstructs ureters), diuretics paused,
+  drainage volumes and albumin replacement, urine sodium and urea to
+  separate volume depletion from tubular damage, nephrology consult if no
+  improvement in 48 h. eGFR below ~30 blocks carboplatin dosing.
+- **Potassium against the medication card.** Potassium supplements are
+  often still on the card after refeeding while the kidney is failing;
+  above 5.5 mmol/l is an emergency (ECG, stop intake, binder).
+- **Refeeding.** Weeks without food followed by low phosphate, potassium,
+  magnesium and ketones in urine. Thiamine, slow build-up, daily
+  electrolytes.
+- **Effusion cytology.** Protein and LDH in pleural or ascitic fluid, and
+  whether malignant cells were seen. A transudate without tumour cells
+  changes the stage and means the fluid is not usable as a cell block for
+  sequencing.
+- **Missing values** worth requesting: albumin (also for the Geriatric
+  Vulnerability Score), bilirubin, GGT, urea, calcium, coagulation, iron
+  status, and a current medication card.
+
+A separate throw-away Rust crate (genpdf, same DejaVu fonts, plain
+`fonts::from_files`) was used to typeset such a lab summary for the family
+and merge it with the scanned originals via `pdftk`. It lives outside this
+repository because it contains patient data.
+
+## Sending mail with attachments
+
+Gmail's web connector cannot carry real attachments and driving the Gmail
+UI in a browser is unreliable. Use the Gmail REST API directly with the
+user's own OAuth token (scope `gmail.compose`): build an `EmailMessage`
+with the PDF, `drafts.create` with the raw base64 body, then `drafts.send`.
+An existing draft can be sent by id without re-uploading. If the token has
+expired (`invalid_grant`), a one-off `InstalledAppFlow` login renews it.
+
 ## License
 
 GPL-3.0.
