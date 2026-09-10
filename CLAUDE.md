@@ -55,7 +55,8 @@ anchor before replacing, then run `make` before committing.
 
 `README.md` carries generic notes on molecular tumour profiling in
 Switzerland (tissue vs. ctDNA, ordering via USZ, patient-record release),
-on reading hospital lab printouts, and on sending mail with attachments
+on reading hospital lab printouts (including what to watch after a
+relieved ureteric obstruction), and on sending mail with attachments
 via the Gmail REST API (never the Gmail MCP connector or browser
 automation for that; the user has said so explicitly).
 They are not part of the document. Keep them free of any personal data:

@@ -83,6 +83,13 @@ patient in this age group. Not medical advice; it is a list of what to ask.
   whether malignant cells were seen. A transudate without tumour cells
   changes the stage and means the fluid is not usable as a cell block for
   sequencing.
+- **After a relieved obstruction.** If a nephrostomy or a catheter
+  exchange suddenly produces litres of urine, the cause was post-renal and
+  is fixed. Expect post-obstructive polyuria for days: balance intake
+  against output, replace sodium, potassium and magnesium, keep diuretics
+  and potassium tablets paused, and read the creatinine with a one-day lag.
+  A pigtail with a bag is a stopgap; ask about a double-J stent before
+  discharge.
 - **Missing values** worth requesting: albumin (also for the Geriatric
   Vulnerability Score), bilirubin, GGT, urea, calcium, coagulation, iron
   status, and a current medication card.
