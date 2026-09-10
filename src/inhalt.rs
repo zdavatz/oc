@@ -219,6 +219,17 @@ pub static DOKUMENT: &[Block] = &[
     P(&[B("Liquid biopsy is the fallback."), T(" When no tissue can be obtained, "), L("FoundationOne Liquid CDx", "https://www.foundationmedicine.com/test/foundationone-liquid-cdx"), T(" sequences 324 genes from cell-free DNA in blood plasma. Two tubes of blood, no procedure. Its limits matter at this age: with little tumour DNA in the blood the test can be "), L("falsely negative", "https://pmc.ncbi.nlm.nih.gov/articles/PMC7519428/"), T("; it gives no HRD score; and age-related mutations of blood stem cells (clonal haematopoiesis, common over 80) can be mistaken for tumour mutations. A negative liquid result therefore excludes nothing.")]),
     Klein(&[T("Practical order: archived tissue if any exists; otherwise fluid or a biopsy if the patient is fit enough; liquid biopsy if not. Reports take two to three weeks. Insurers do not always cover the test; ask for prior approval or expect a bill in the low thousands.")]),
 
+    H2("Reading the lab printout"),
+    P(&[T("Hospitals hand out cumulative lab sheets on request. Five things to look for before the ward round, in this order.")]),
+    Liste(&[
+        &[B("Kidney trend."), T(" Creatinine and eGFR over consecutive days. A doubling within days is acute kidney injury. Ovarian cancer and ascites obstruct the ureters, so the first question is an ultrasound for hydronephrosis; a nephrostomy or ureteric stent reverses it within days. The second is volume: diuretics, drainage of ascites or effusion and weeks of poor intake all lower kidney perfusion. Urine sodium and urea help tell the two apart. An eGFR below about "), N("30 ml/min"), T(" blocks carboplatin dosing, so the kidney comes before any chemotherapy decision.")],
+        &[B("Potassium against the medication card."), T(" Potassium supplements started during refeeding often stay on the card while the kidney fails. Above "), N("5.5 mmol/l"), T(" is an emergency: ECG, stop all intake, binder or insulin-glucose.")],
+        &[B("Refeeding."), T(" Weeks without food followed by low phosphate, potassium and magnesium and ketones in the urine. Thiamine, a slow build-up and daily electrolytes; the supplements must be cut back as soon as the values normalise.")],
+        &[B("Effusion cytology."), T(" Protein and LDH in pleural or ascitic fluid, and whether malignant cells were seen. A transudate without tumour cells does not count as stage IV, and it is not usable as a cell block for sequencing.")],
+        &[B("What is missing."), T(" Albumin (also needed for the Geriatric Vulnerability Score), bilirubin and GGT alongside a raised alkaline phosphatase, urea, calcium, coagulation, iron status, and a medication card that is not older than the last creatinine.")],
+    ]),
+    Klein(&[T("Haemoglobin, CRP, platelets and the neutrophil-to-lymphocyte ratio round out the picture: anaemia of chronic disease, inflammation and reactive thrombocytosis are common in advanced ovarian cancer and each is an unfavourable but not decisive sign. Ask for a transfusion plan below "), N("80 g/l"), T(" and for a urine culture when leucocytes or yeasts appear.")]),
+
     H2("Putting it together for an 84-year-old"),
     P(&[T("The question is fitness, not age. Guidelines from NCCN, ESGO-ESMO and the "), L("French SOFOG-GINECO-FRANCOGYN group", "https://pmc.ncbi.nlm.nih.gov/articles/PMC8909025/"), T(" recommend a geriatric screen – G8, the Geriatric Vulnerability Score, or a full geriatric assessment – to sort patients into three groups.")]),
     Tab(&T_GRUPPEN),
