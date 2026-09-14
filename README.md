@@ -90,6 +90,17 @@ patient in this age group. Not medical advice; it is a list of what to ask.
   and potassium tablets paused, and read the creatinine with a one-day lag.
   A pigtail with a bag is a stopgap; ask about a double-J stent before
   discharge.
+- **Refeeding, second wave.** Once the kidney recovers and polyuria sets
+  in, magnesium and phosphate drop again while potassium normalises.
+  Supplements that were stopped during the hyperkalaemia need to come
+  back, and magnesium is often missing from the medication card
+  altogether. Check all three daily until intake is stable.
+- **Radiology reports beat lab sheets.** A CT report carries the working
+  diagnosis, the reason for the kidney failure (ureteric stenoses, stents,
+  nephrostomies), gallbladder and bile-duct findings that explain
+  cholestatic enzymes, and incidental lung nodules. Ask for the reports
+  before the images. Positive ascites cytology means a cell block can
+  replace a biopsy for molecular profiling.
 - **Missing values** worth requesting: albumin (also for the Geriatric
   Vulnerability Score), bilirubin, GGT, urea, calcium, coagulation, iron
   status, and a current medication card.
@@ -98,6 +109,29 @@ A separate throw-away Rust crate (genpdf, same DejaVu fonts, plain
 `fonts::from_files`) was used to typeset such a lab summary for the family
 and merge it with the scanned originals via `pdftk`. It lives outside this
 repository because it contains patient data.
+
+## Receiving documents from a Swiss hospital
+
+Hospitals send records through HIN Mail. The Gmail message is only a
+notification; the real mail sits on `verapp-verify-mail.hin.ch` behind
+the link (SMS verification on first open, then browser-bound). The
+attachments are stored encrypted on a CDN and decrypted in the browser
+with a key from the link, so there is no command-line download. The
+practical route: turn off "Ask where to save each file" in Chrome, click
+"Als EML herunterladen", then split the EML with Python's `email`
+module:
+
+```python
+import email, os
+from email import policy
+m = email.message_from_binary_file(open('mail.eml', 'rb'), policy=policy.default)
+for part in m.walk():
+    if part.get_filename():
+        open(os.path.join('out', part.get_filename()), 'wb').write(part.get_payload(decode=True))
+```
+
+Lab PDFs from the hospital system have a text layer (`pdftotext -layout`);
+scanned printouts do not and need `pdfimages -j` plus reading the images.
 
 ## Sending mail with attachments
 
