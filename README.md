@@ -133,6 +133,37 @@ for part in m.walk():
 Lab PDFs from the hospital system have a text layer (`pdftotext -layout`);
 scanned printouts do not and need `pdfimages -j` plus reading the images.
 
+## Drug landscape, September 2026 (notes)
+
+Ovarian, tubal and primary peritoneal high-grade serous carcinoma are one
+disease in every guideline. What changed recently, with brand names:
+
+| Drug | Brand | Mechanism | Setting | Status |
+|---|---|---|---|---|
+| Olaparib | Lynparza | PARP inhibitor | First-line maintenance, BRCA or HRD | NCCN 2026 added HRD without BRCA |
+| Niraparib | Zejula | PARP inhibitor | First-line maintenance, all-comers | established |
+| Rucaparib | Rubraca | PARP inhibitor | BRCA; maintenance in EU | ESMO update Jan 2026 |
+| Bevacizumab | Avastin | anti-VEGF | First line and maintenance, HRD-negative | established |
+| Mirvetuximab soravtansine | Elahere | ADC against FRα | Platinum-resistant, FRα high | FDA/EMA 2024, ESMO 2025 |
+| Pembrolizumab + paclitaxel | Keytruda | PD-1 | Platinum-resistant, PD-L1 positive | FDA 2026 |
+| Relacorilant + nab-paclitaxel | Lifyorli | glucocorticoid receptor antagonist | Platinum-resistant, no biomarker | FDA March 2026 (ROSELLA) |
+| Avutometinib + defactinib | Avmapki Fakzynja | RAF/MEK + FAK | Low-grade serous, KRAS only | FDA 2025 |
+| Sofetabart mipitecan | – | ADC against FRα | Platinum-resistant | breakthrough Jan 2026 |
+| SIM0505 | – | ADC | Platinum-resistant | fast track 2026 |
+
+Practical consequences: first line is still carboplatin + paclitaxel
+(weekly in the very old), surgery only after response (ASCO 2025). When
+tissue or an ascites cell block is profiled, order BRCA, HRD, FRα and
+PD-L1 in one go. HIPEC requires cytoreductive surgery. Swissmedic lags
+the EMA; new indications may need an Art. 71 KVV request.
+
+Sources: [NCCN changes into 2026](https://www.onclive.com/view/experts-unpack-the-most-notable-nccn-guideline-changes-heading-into-2026),
+[ESMO 2026 summary](https://reference.medscape.com/cc2/p10/esmo-guideline-epithelial-ovarian-cancer-2026a1000di9),
+[ASCO neoadjuvant guideline 2025](https://ascopubs.org/doi/10.1200/JCO-24-02589),
+[ROSELLA, Lancet 2026](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00462-9/fulltext),
+[FDA approvals Q1 2026, AACR](https://www.aacr.org/blog/2026/04/01/fda-approvals-in-oncology-january-march-2026/),
+[Mirvetuximab + carboplatin, SGO 2026](https://www.oncozine.com/sgo-2026-phase-2-trial-highlights-efficacy-and-safety-of-mirvetuximab-soravtansine-carboplatin-in-platinum-sensitive-ovarian-cancer/).
+
 ## Sending mail with attachments
 
 Gmail's web connector cannot carry real attachments and driving the Gmail
