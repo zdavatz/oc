@@ -144,9 +144,9 @@ disease in every guideline. What changed recently, with brand names:
 | Niraparib | Zejula | PARP inhibitor | First-line maintenance, all-comers | established |
 | Rucaparib | Rubraca | PARP inhibitor | BRCA; maintenance in EU | ESMO update Jan 2026 |
 | Bevacizumab | Avastin | anti-VEGF | First line and maintenance, HRD-negative | established |
-| Mirvetuximab soravtansine | Elahere | ADC against FRα | Platinum-resistant, FRα high | FDA/EMA 2024, ESMO 2025 |
-| Pembrolizumab + paclitaxel | Keytruda | PD-1 | Platinum-resistant, PD-L1 positive | FDA 2026 |
-| Relacorilant + nab-paclitaxel | Lifyorli | glucocorticoid receptor antagonist | Platinum-resistant, no biomarker | FDA March 2026 (ROSELLA) |
+| Mirvetuximab soravtansine | Elahere | ADC against FRα | Platinum-resistant, FRα high | FDA/EMA 2024, Swissmedic March 2025, ESMO 2025 |
+| Pembrolizumab + paclitaxel | Keytruda | PD-1 | Platinum-resistant, PD-L1 positive | FDA 2026; drug approved in CH, this indication not |
+| Relacorilant + nab-paclitaxel | Lifyorli | glucocorticoid receptor antagonist | Platinum-resistant, no biomarker | FDA March 2026 (ROSELLA); EMA pending since Oct 2025; not Swissmedic-approved |
 | Avutometinib + defactinib | Avmapki Fakzynja | RAF/MEK + FAK | Low-grade serous, KRAS only | FDA 2025 |
 | Sofetabart mipitecan | – | ADC against FRα | Platinum-resistant | breakthrough Jan 2026 |
 | SIM0505 | – | ADC | Platinum-resistant | fast track 2026 |
@@ -154,8 +154,12 @@ disease in every guideline. What changed recently, with brand names:
 Practical consequences: first line is still carboplatin + paclitaxel
 (weekly in the very old), surgery only after response (ASCO 2025). When
 tissue or an ascites cell block is profiled, order BRCA, HRD, FRα and
-PD-L1 in one go. HIPEC requires cytoreductive surgery. Swissmedic lags
-the EMA; new indications may need an Art. 71 KVV request.
+PD-L1 in one go. HIPEC requires cytoreductive surgery. Of the new drugs,
+only relacorilant lacks any Swiss authorisation (single import under
+Art. 9b HMG, reimbursement under Art. 71c KVV); pembrolizumab would be
+off-label (Art. 71a/b KVV); Elahere is approved in Switzerland.
+
+Source: [Swissmedic public summary, Elahere](https://www.swissmedic.ch/swissmedic/en/home/about-us/publications/public-summary-swiss-par/public-summary-swiss-par-elahere.html).
 
 Sources: [NCCN changes into 2026](https://www.onclive.com/view/experts-unpack-the-most-notable-nccn-guideline-changes-heading-into-2026),
 [ESMO 2026 summary](https://reference.medscape.com/cc2/p10/esmo-guideline-epithelial-ovarian-cancer-2026a1000di9),
