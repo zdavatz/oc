@@ -162,6 +162,28 @@ what to check before the first cycle:
   a relative can be set up. For the coming weeks direct e-mail delivery is
   faster than an EPD.
 
+## Nutrition during weekly carboplatin/paclitaxel (notes)
+
+After weeks of poor intake and with albumin in the high twenties, the
+priority is protein and calories in small volumes, plus a fibre that
+regulates rather than pushes. Swiss products that fit:
+
+- **High-density oral nutrition** such as Omanda Moltein PLUS: 250 kcal
+  and 21 g protein in 120 ml, fully balanced FSMP, several flavours (helps
+  with chemotherapy taste changes). Two servings a day cover much of the
+  protein need. Comparable to Fresubin or Resource but about twice as
+  concentrated.
+- **Partially hydrolysed guar gum (PHGG)**, e.g. Digesan FIBRE, 5 g a day:
+  normalises stool in both directions, which suits the alternating
+  diarrhoea and constipation under paclitaxel.
+- Not suitable: protein-only low-calorie variants when calories are
+  needed; rehydration solutions made for short bowel or high-output stoma
+  (high sodium, no potassium).
+
+Ask the treating oncologist or the hospital dietitian to prescribe the
+oral nutrition (MiGeL reimbursement for diagnosed malnutrition) and to
+match total protein to kidney function.
+
 ## Drug landscape, September 2026 (notes)
 
 Ovarian, tubal and primary peritoneal high-grade serous carcinoma are one
