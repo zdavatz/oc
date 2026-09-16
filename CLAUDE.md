@@ -58,7 +58,8 @@ Switzerland (tissue vs. ctDNA, ordering via USZ, patient-record release),
 on reading hospital lab printouts (including what to watch after a
 relieved ureteric obstruction and the second refeeding wave), on receiving
 hospital records via HIN Mail (EML download, split with Python), on the
-2026 drug landscape with brand names, and on
+2026 drug landscape with brand names, on discharge papers and outpatient
+chemotherapy logistics (incl. the Zurich EPD situation), and on
 sending mail with attachments via the Gmail REST API (never the Gmail MCP connector or browser
 automation for that; the user has said so explicitly).
 They are not part of the document. Keep them free of any personal data:

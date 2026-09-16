@@ -133,6 +133,35 @@ for part in m.walk():
 Lab PDFs from the hospital system have a text layer (`pdftotext -layout`);
 scanned printouts do not and need `pdfimages -j` plus reading the images.
 
+## Discharge and outpatient chemotherapy (notes)
+
+What the discharge papers of a Swiss university hospital contain and
+what to check before the first cycle:
+
+- **Two appointment letters.** One from the gynaecologic oncology clinic
+  for the informed-consent visit (blood draw, blood pressure, compression
+  stockings), one from the oncology day clinic listing the cycles. Six
+  weekly slots mean the weekly carboplatin/paclitaxel schedule recommended
+  for the very old.
+- **A repeat prescription** with fixed items (B vitamins, thiamine, skin
+  and nasal care) and on-demand items for the expected side effects:
+  loperamide, laxatives, antiemetics, paracetamol, a sleep aid, a mouth
+  rinse. Check what is missing against the last ward medication card:
+  electrolyte supplements, PPI, antihypertensives, low-molecular heparin.
+- **Before the first cycle** is the last moment to get a cell block from
+  ascites or tissue profiled (BRCA, HRD, FRα, PD-L1); chemotherapy changes
+  the material afterwards.
+- **Ongoing document delivery.** Ask the treating senior physician in
+  writing to send every lab sheet, image (DICOM), pathology and molecular
+  report and every updated medication list by e-mail as they appear, and
+  name the clinic secretariats in CC. A signed release of medical
+  confidentiality makes this routine.
+- **Electronic patient record (EPD) in Zurich, 2026.** Post Sanela stops
+  operating EPDs at the end of 2026; Abilis is the remaining provider.
+  Opening requires the patient in person with a biometric ID; a proxy for
+  a relative can be set up. For the coming weeks direct e-mail delivery is
+  faster than an EPD.
+
 ## Drug landscape, September 2026 (notes)
 
 Ovarian, tubal and primary peritoneal high-grade serous carcinoma are one
