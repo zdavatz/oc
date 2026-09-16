@@ -195,6 +195,42 @@ Ask the treating oncologist or the hospital dietitian to prescribe the
 oral nutrition (MiGeL reimbursement for diagnosed malnutrition) and to
 match total protein to kidney function.
 
+## Working with the hospital's DICOM images (notes)
+
+Swiss hospitals hand out imaging via a PACSonWEB reference code (patient
+login with code and birth date, "view and download"). "Bilder
+herunterladen" offers DICOM Original as a ZIP; with Chrome set to ask for
+a download location the dialog cannot be driven remotely, so download by
+hand and hand over the path. A single ZIP held all studies (3 GB, ~2200
+files, with DICOMDIR). Keep it out of the repository (`.git/info/exclude`).
+
+What is inside besides pixels, and worth extracting with `pydicom`:
+
+- **Radiology reports as DICOM SR** (Basic Text SR, series description
+  "Radiologischer Befundbericht"): walk `ContentSequence` and collect
+  `TextValue`. These are the signed reports, sometimes including ones not
+  yet sent on paper.
+- **AI reports as secondary-capture PDFs** (e.g. contextflow CFA Chest
+  CT): multi-frame RGB images, render frame by frame. They flag nodules
+  the radiologist may have judged differently; treat as questions for the
+  physician, not findings.
+- **Dose reports** and scanner metadata (model, kVp, CTDIvol, contrast).
+
+Rendering: read `pixel_array`, apply `RescaleSlope`/`RescaleIntercept` to
+get Hounsfield units, then window (soft tissue 40/400, lung -600/1500,
+bone 400/1800). A 20-line script with `pydicom`, `numpy` and `Pillow`
+does this; `pydicom`'s `stop_before_pixels=True` makes the inventory pass
+fast. For side-by-side comparison of two dates, pair slices by anatomy,
+not by z-coordinate, when the scanners differ.
+
+What CT shows in diffuse peritoneal carcinomatosis: no mass. Omental fat
+loses its dark homogeneity ("omental caking" in its early form),
+mesentery turns streaky, fluid appears everywhere, ureters and bile
+ducts dilate. Zooming does not reveal a tumour, because the cell layer
+is thinner than the contrast resolution. This is why diagnosis came from
+ascites cytology and why FAPI-PET, not CT, would image the disease
+itself.
+
 ## Drug landscape, September 2026 (notes)
 
 Ovarian, tubal and primary peritoneal high-grade serous carcinoma are one
