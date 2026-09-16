@@ -151,6 +151,17 @@ what to check before the first cycle:
 - **Before the first cycle** is the last moment to get a cell block from
   ascites or tissue profiled (BRCA, HRD, FRα, PD-L1); chemotherapy changes
   the material afterwards.
+- **The discharge report itself.** A Swiss internal-medicine discharge
+  report may state that it omits the epicrisis "for administrative
+  relief": diagnosis list and procedure only, no synthesis. Read it for
+  what the ward letters did not say: pending results (liquid biopsy,
+  immunohistochemistry), the intended chemotherapy regimen (a
+  single-agent plan for a very old patient contradicts EWOC-1 and is
+  worth questioning), what the urologists actually placed (tumour stents
+  versus plain double-J), and what was dropped from the medication list
+  (low-molecular heparin, thiamine) versus what was added (fixed
+  paracetamol, protein powder, on-demand magnesium). Ask for the report
+  by e-mail as well as on paper, and for the final version when it comes.
 - **Ongoing document delivery.** Ask the treating senior physician in
   writing to send every lab sheet, image (DICOM), pathology and molecular
   report and every updated medication list by e-mail as they appear, and
