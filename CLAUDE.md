@@ -63,7 +63,8 @@ working with the hospital's DICOM images (PACSonWEB, embedded SR reports,
 AI reports, rendering with pydicom), on the
 2026 drug landscape with brand names, on discharge papers, the discharge report and outpatient
 chemotherapy logistics (incl. the Zurich EPD situation), on nutrition
-during chemotherapy, and on
+during chemotherapy (incl. how to get product samples via the hospital
+dietitian), and on
 sending mail with attachments via the Gmail REST API (never the Gmail MCP connector or browser
 automation for that; the user has said so explicitly).
 They are not part of the document. Keep them free of any personal data:

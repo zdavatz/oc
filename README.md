@@ -204,6 +204,14 @@ Ask the treating oncologist or the hospital dietitian to prescribe the
 oral nutrition (MiGeL reimbursement for diagnosed malnutrition) and to
 match total protein to kidney function.
 
+A manufacturer's dietitian will, correctly, decline to advise on a
+patient under active hospital treatment and refer back to the hospital's
+own dietetics service, but will supply product samples through that
+service. So route the request through the clinic secretariat: ask for
+samples of two or three flavours to be ready at the first chemotherapy
+appointment, so the patient can test tolerance and taste before anything
+is prescribed.
+
 ## Working with the hospital's DICOM images (notes)
 
 Swiss hospitals hand out imaging via a PACSonWEB reference code (patient
