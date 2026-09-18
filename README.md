@@ -133,6 +133,15 @@ for part in m.walk():
 Lab PDFs from the hospital system have a text layer (`pdftotext -layout`);
 scanned printouts do not and need `pdfimages -j` plus reading the images.
 
+**Same filename, different versions.** Hospital systems name exported
+reports by type and patient, not by version: two secretaries sending the
+provisional and the final discharge report an hour apart produce
+identical filenames. Extracting a second EML into the same folder
+silently overwrites the first. Prefix extracted attachments with sender
+and timestamp, keep every version, and check the print footer
+(`Druckdatum … / 7` vs `/ 8`) or the word "provisorisch" before treating
+a file as final. Verify with `md5sum` when a folder arrives twice.
+
 ## Discharge and outpatient chemotherapy (notes)
 
 What the discharge papers of a Swiss university hospital contain and
