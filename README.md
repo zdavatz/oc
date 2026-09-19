@@ -213,6 +213,15 @@ Ask the treating oncologist or the hospital dietitian to prescribe the
 oral nutrition (MiGeL reimbursement for diagnosed malnutrition) and to
 match total protein to kidney function.
 
+Expect several parties to end up advising on nutrition at once: a
+private dietetics practice the patient saw earlier, the hospital's own
+dietitians, and a product manufacturer. Their written advice will
+overlap (protein powder three times a day, enriched compote, milk drinks
+between meals) but each covers only part of the picture; a private
+sheet may ignore kidney function and prediabetes, the hospital may not
+know about the private one. Collect every written recommendation in the
+family file and bring them to one appointment to be reconciled.
+
 A manufacturer's dietitian will, correctly, decline to advise on a
 patient under active hospital treatment and refer back to the hospital's
 own dietetics service, but will supply product samples through that
