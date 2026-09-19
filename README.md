@@ -171,6 +171,15 @@ what to check before the first cycle:
   (low-molecular heparin, thiamine) versus what was added (fixed
   paracetamol, protein powder, on-demand magnesium). Ask for the report
   by e-mail as well as on paper, and for the final version when it comes.
+- **Home care (Spitex) after discharge.** The hospital issues a
+  physician's Spitex order (scope, frequency, duration, insurance class)
+  and a physiotherapy prescription (nine sessions, first within five
+  weeks). In the city of Zurich the provider is Spitex Zürich; a patient
+  is served by a neighbourhood team plus, for complex care such as
+  catheters, a "Home & Care" unit, each with its own phone and mailbox.
+  Write to both once, giving a relative's phone and e-mail, and ask for
+  the framework contract, needs assessment, care plan, schedule and
+  service statements to be sent electronically and kept updated.
 - **Ongoing document delivery.** Ask the treating senior physician in
   writing to send every lab sheet, image (DICOM), pathology and molecular
   report and every updated medication list by e-mail as they appear, and
