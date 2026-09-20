@@ -180,6 +180,23 @@ what to check before the first cycle:
   Write to both once, giving a relative's phone and e-mail, and ask for
   the framework contract, needs assessment, care plan, schedule and
   service statements to be sent electronically and kept updated.
+- **Check the Spitex package on arrival.** The framework contract
+  contains a data-protection consent page (health information to
+  relatives, invoices to a relative, online translation); it may come
+  back blank even after the visit. Ask for it to be filled in and signed
+  at the next visit, naming the relative for information and a separate
+  relative and e-mail address for invoices; the team sends a corrected
+  scan the same day. The medication report is compiled by the nurse from
+  what the patient and relatives say, not from the discharge letter, so
+  diff it against the letter (proton-pump inhibitor, protein supplement,
+  fixed vs. as-needed paracetamol, exact vitamin product). A drug the
+  patient will not take ends up in the "reserve" list; if the discharge
+  letter had it as fixed, that is a question for the next oncology visit.
+  Every entry marked "P" is self-administered; the service only sets out
+  the pills. The needs assessment may cut the hospital's order (three
+  visits a day to one); a new assessment can be requested. The same
+  filename convention (`Medikamentenbericht_<timestamp>.pdf`) reappears
+  with each revision, so keep the timestamp.
 - **Ongoing document delivery.** Ask the treating senior physician in
   writing to send every lab sheet, image (DICOM), pathology and molecular
   report and every updated medication list by e-mail as they appear, and

@@ -27,13 +27,9 @@ change. The HTML is a by-product and stays untracked.
 Same pipeline as `~/software/schoenlein-henoch` (and adhs-expert): pure Rust,
 `genpdf` 0.2 typesets, `lopdf` overlays link annotations.
 
-| File | Role |
-|---|---|
-| `src/inhalt.rs` | Type definitions (`Dokument`, `Block`, `Span`, `Tabelle`) **and the entire text as data**. Content changes go here only. |
-| `src/html.rs` | HTML output |
-| `src/blatt.css` | CSS for the HTML, via `include_str!`. Its `@page` `content:` line must contain `inhalt::KOPFZEILE` verbatim (a `debug_assert` checks). |
-| `src/pdf.rs` | PDF typesetting and link overlay |
-| `src/main.rs` | writes both files |
+**All document text lives as data in `src/inhalt.rs`; content changes go
+there only.** The `@page` `content:` line in `src/blatt.css` must contain
+`inhalt::KOPFZEILE` verbatim (a `debug_assert` checks).
 
 `pdf.rs`/`html.rs` are copied from schoenlein-henoch with only the fixed
 strings localised ("Sources", "Page"). Read that repo's CLAUDE.md before
@@ -53,20 +49,11 @@ anchor before replacing, then run `make` before committing.
 
 ## Side notes outside the fact sheet
 
-`README.md` carries generic notes on molecular tumour profiling in
-Switzerland (tissue vs. ctDNA, ordering via USZ, patient-record release),
-on reading hospital lab printouts (including what to watch after a
-relieved ureteric obstruction and the second refeeding wave), on receiving
-hospital records via HIN Mail (EML download, split with Python, versions
-with identical filenames), on
-working with the hospital's DICOM images (PACSonWEB, embedded SR reports,
-AI reports, rendering with pydicom), on the
-2026 drug landscape with brand names, on discharge papers, the discharge report, home care (Spitex) and
-outpatient chemotherapy logistics (incl. the Zurich EPD situation), on nutrition
-during chemotherapy (incl. reconciling several advisors and how to get
-product samples via the hospital dietitian), and on
-sending mail with attachments via the Gmail REST API (never the Gmail MCP connector or browser
-automation for that; the user has said so explicitly).
-They are not part of the document. Keep them free of any personal data:
-no patient or physician names, birth dates, addresses, or email threads.
-Only public institutional contacts and URLs.
+`README.md` carries generic notes gathered while using this repo for a
+real case (tumour profiling, lab printouts, HIN Mail and DICOM handling,
+the 2026 drug landscape, discharge and home-care logistics, nutrition,
+and mailing via the Gmail REST API — never the Gmail MCP connector or
+browser automation for that; the user has said so explicitly). They are
+not part of the document. Keep them free of any personal data: no patient
+or physician names, birth dates, addresses, or email threads. Only public
+institutional contacts and URLs.
