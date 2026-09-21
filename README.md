@@ -327,6 +327,22 @@ with the PDF, `drafts.create` with the raw base64 body, then `drafts.send`.
 An existing draft can be sent by id without re-uploading. If the token has
 expired (`invalid_grant`), a one-off `InstalledAppFlow` login renews it.
 
+Two patterns that proved useful beyond PDFs:
+
+- **Appointments as calendar invites.** Write one `.ics` file with all
+  events (`METHOD:REQUEST`, a `VTIMEZONE` for Europe/Zurich, the
+  relatives as `ATTENDEE` with `RSVP=FALSE`, a `VALARM` twelve hours
+  before) and attach it as `text/calendar; method=REQUEST`. Opening the
+  file imports every event at once; a single new appointment goes out the
+  same way. Put location, phone number for cancellation and the ward's
+  24-hour cancellation rule into `DESCRIPTION`.
+- **Replying in a thread.** Fetch the original with `format=metadata`,
+  set `In-Reply-To` and `References` to its `Message-ID`, prefix the
+  subject with `Re:` only if missing, and pass `threadId` alongside
+  `raw` in `drafts.create`. Providers who answer in five words ("Thu
+  10/11 o'clock") get a reply that lists everything else on that day so
+  they can spot the collision themselves.
+
 ## License
 
 GPL-3.0.
