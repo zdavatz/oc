@@ -343,6 +343,32 @@ Two patterns that proved useful beyond PDFs:
   10/11 o'clock") get a reply that lists everything else on that day so
   they can spot the collision themselves.
 
+## A one-page weekly timetable (notes)
+
+Once several providers visit the home (nursing service, physiotherapist,
+meal delivery) plus hospital appointments, relatives need a single page,
+not the long report. What worked: A4 landscape, one column per day, one
+row per hour slot (7:00 to 14:30 plus a "12:00" row for the delivered
+meals), each cell a bold title plus two or three short lines. Below the
+grid: a one-line preview of next week, a contacts line with every
+e-mail address, and the current medication list as one paragraph.
+
+Built with the same genpdf helpers as the report, plus a second binary
+that overlays link annotations with `lopdf`: run `pdftotext -bbox` on
+the rendered page, take the bounding box of every word that contains
+`@` (mailto) or matches a drug name (search page on ch.oddb.org), and
+write `Link` annotations with those rectangles. No underline drawing is
+needed; colouring the words is enough. Pitfalls: a word wider than its
+column is silently dropped by genpdf (split it with a hyphen and a
+space), empty grid rows collapse unless given a minimum padding, and
+every extra line in the footer pushes the page to two, so trim text
+rather than fonts below 8 pt.
+
+Ask each provider once, in writing, for delivery days and what happens
+when nobody opens the door (the meal service leaves the parcel in the
+letterbox); that answer goes into the timetable so nobody has to stay
+home for it.
+
 ## License
 
 GPL-3.0.
