@@ -288,6 +288,20 @@ samples of two or three flavours to be ready at the first chemotherapy
 appointment, so the patient can test tolerance and taste before anything
 is prescribed.
 
+In practice the clinic may pass such a request on to the external
+dietetics centre that handles its outpatient follow-up. That centre
+orders the samples, one small bottle per flavour, from a home-care
+pharmacy that delivers medical nutrition. The samples then come to the
+home a few days later instead of to the chemo appointment. The same
+centre later applies for basic-insurance cover once the product is
+tolerated, and it offers larger bags. The delivery day is known but not
+the hour, and no tracking number is sent by default. To check, write to
+the pharmacy's customer service with the patient's name, birth date and
+address, the ordering dietitian and the order date. Keep the pharmacy's
+free customer-service number with the other contacts. If fever or new
+abdominal pain appears before the samples arrive, the treating
+physicians decide first whether the patient should take them.
+
 ## Working with the hospital's DICOM images (notes)
 
 Swiss hospitals hand out imaging via a PACSonWEB reference code (patient
