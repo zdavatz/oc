@@ -447,6 +447,25 @@ when nobody opens the door (the meal service leaves the parcel in the
 letterbox); that answer goes into the timetable so nobody has to stay
 home for it.
 
+Show home-care visits as a window, not a fixed time. The nursing service
+plans with a tolerance of one to two hours and will object if the family
+timetable shows its planning sheet's slot (e.g. 9:00–9:45) as fixed.
+Agree a window for ordinary days (e.g. 8:30–10:30) and fixed times only
+on days with hospital, physiotherapy or GP appointments. When the
+service moves a visit, the newest mail from the planners wins over what
+a nurse said in the morning. Confirm it, and check that the gap after
+physiotherapy still leaves the patient time to rest.
+
+New night-time restlessness (kicking, agitation) with daytime
+drowsiness in an old patient is often the first sign of delirium from
+infection, dehydration or pain. It can also come from low magnesium,
+calcium or potassium, rising creatinine, iron deficiency (restless legs),
+constipation or a full bladder. Report it together with any fever.
+Colicky abdominal cramps with no stool in peritoneal carcinomatosis
+can mean a narrowing bowel. Get a same-day assessment and give no
+stimulant laxative until obstruction is ruled out. Call emergency
+services for vomiting, no wind or a hard, distended abdomen.
+
 ## License
 
 GPL-3.0.
