@@ -52,8 +52,9 @@ anchor before replacing, then run `make` before committing.
 `README.md` carries generic notes gathered while using this repo for a
 real case (tumour profiling, lab printouts, HIN Mail and DICOM handling,
 the 2026 drug landscape, discharge and home-care logistics, warning signs
-and pain medication before the first cycle, nutrition and sample
-delivery through a home-care pharmacy,
+and pain medication before the first cycle, nutrition, sample
+delivery through a home-care pharmacy, preparing and enriching with
+powdered oral nutrition, dry mouth,
 a one-page weekly timetable with link annotations, calendar invites and threaded replies via the Gmail REST API — never the Gmail MCP connector or
 browser automation for that; the user has said so explicitly). They are
 not part of the document. Keep them free of any personal data: no patient

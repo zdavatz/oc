@@ -302,6 +302,29 @@ free customer-service number with the other contacts. If fever or new
 abdominal pain appears before the samples arrive, the treating
 physicians decide first whether the patient should take them.
 
+The powder products come as a starter kit of single-portion bottles
+(55 g each). Fill with water or milk to the mark (120 ml) and shake, or
+use three heaped scoops in a shaker, or stir the powder into food:
+yoghurt, porridge, muesli, apple sauce, compote, soup, mashed potatoes,
+milk coffee or a malted milk drink. Never boil it, because the protein
+flocculates; stir it into warm food at the end. Start with one scoop and
+work up to a full portion. Once mixed, use it the same day (24 h in the
+fridge). One portion adds about 250 kcal and 21 g protein. Count it
+against any protein powder already prescribed, so total protein stays
+matched to kidney function.
+
+A small breakfast (a cup of malted milk drink, an egg, a little
+porridge) gives roughly 380 kcal and 19 g protein. That is about a
+quarter of a day's need. Enrich it rather than enlarge it: stir a
+portion of the powder or the prescribed protein powder into the
+porridge once it has stopped steaming, cook it with whole milk and
+finish with butter or cream, and scramble the egg with cream.
+A dry mouth usually means too little fluid, especially with fever, pain
+or large urine volumes after ureteric stents. It can also mean oral
+thrush. Offer small sips every 10 to 15 minutes, ice chips, a saliva
+gel from the pharmacy and gentle mouth care. That care matters anyway
+before carboplatin and paclitaxel.
+
 ## Working with the hospital's DICOM images (notes)
 
 Swiss hospitals hand out imaging via a PACSonWEB reference code (patient
