@@ -466,6 +466,31 @@ can mean a narrowing bowel. Get a same-day assessment and give no
 stimulant laxative until obstruction is ruled out. Call emergency
 services for vomiting, no wind or a hard, distended abdomen.
 
+Vomiting that doesn't stop is not always a bowel obstruction. The
+tumour may be irritating the peritoneum, a partial obstruction may
+resolve, or there may be constipation, a urinary or gut infection, or
+rising creatinine or calcium. None of this can be told apart at home,
+and every one of them costs fluid and electrolytes. When vomiting comes
+with weakness, fever and drowsiness, the patient belongs in hospital
+that day. The simplest route is often the clinic that treats her
+anyway, which has her full record.
+
+The moment the patient is admitted, send one short mail to each party
+instead of one long one to all:
+
+- The family gets the full course.
+- The home-care service is asked to pause all visits, naming the next
+  one.
+- The physiotherapist is told which session is cancelled.
+- The meal service is asked to stop deliveries.
+- The dietitian and GP are told for information only, and their later
+  appointments stay booked.
+
+Give the emergency physician what the record may lack: self-changed
+doses (paracetamol can hide fever), stents and the date of their
+placement, the last bowel movement, drugs stopped for intolerance, and
+current oral nutrition.
+
 ## License
 
 GPL-3.0.
