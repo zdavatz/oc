@@ -208,6 +208,47 @@ what to check before the first cycle:
   a relative can be set up. For the coming weeks direct e-mail delivery is
   faster than an EPD.
 
+## At home before the first chemotherapy (notes)
+
+The days between discharge and the first outpatient cycle are when
+problems surface that nobody is watching for.
+
+- **Fever plus abdominal pain means a call the same day.** In peritoneal
+  carcinomatosis with ureteric stents or nephrostomies, the usual causes
+  are a blocked or infected stent (risk of urosepsis), infected ascites,
+  or a narrowing bowel. Do not wait for the next planned appointment. An
+  infection has to be ruled out before the first cycle anyway. Go
+  straight to the emergency number if there are rigors, confusion, little
+  or no urine, vomiting without stool or wind, or a hard abdomen.
+- **Fixed paracetamol hides fever.** A "slight" temperature on four
+  fixed doses a day counts as real fever. Tell the physician when the last
+  dose was taken.
+- **Watch the paracetamol total, not the single dose.** One gram per dose
+  is normal, but after weeks of poor intake, with low albumin, old age or
+  unclear liver values, the usual daily ceiling is about 3 g, often less.
+  Count reserve tablets and combination products too. A patient who
+  doubles her own dose is reporting worse pain. Tell the home-care nurses,
+  who set out the pills, and the physician.
+- **Opioids with carboplatin and paclitaxel** are routinely combined, and
+  there is no relevant pharmacokinetic interaction. Morphine metabolites
+  accumulate when the kidneys are weak, so hydromorphone or a low,
+  spaced morphine dose is usual in the very old. Constipation never wears
+  off and can tip into obstruction when there are tumour nodules on the
+  bowel, so a fixed laxative starts on day one. The paclitaxel
+  premedication (dexamethasone, an antihistamine) adds drowsiness on
+  chemo days. Paclitaxel causes muscle aches two to three days after the
+  infusion, which analgesics help, and later a neuropathy, which opioids
+  barely touch.
+- **Reaching the oncology team.** Senior physicians often do not answer
+  e-mail. The outpatient clinic's practice assistants do, and scan every
+  mail into the record. Keep their direct line next to the main switchboard.
+  Some GP practices bill a physician's e-mail reply as a phone
+  consultation.
+- **Release of confidentiality.** A form filled in on screen is not
+  signed. Send a scan or photo of the signed page. A hospital form
+  releases only that hospital's physicians, so a GP practice may want its
+  own copy.
+
 ## Nutrition during weekly carboplatin/paclitaxel (notes)
 
 After weeks of poor intake and with albumin in the high twenties, the
