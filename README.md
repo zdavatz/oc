@@ -508,6 +508,14 @@ laxative is on the home list (a stimulant such as sodium picosulfate or
 an osmotic one such as macrogol) and when it was last taken. Stimulant
 laxatives are withheld while obstruction is suspected.
 
+Emergency and ward physicians rarely send e-mail, and their addresses are
+not in any document the family has. Hospital addresses often follow a
+first-name.last-name pattern, but do not guess one: a wrong guess sends
+medical details to a stranger. Ask on the ward for the physician's
+address or card, or write to the clinic secretariat, which files every
+mail in the record and forwards it. For questions the same evening,
+the ward's phone number is faster than mail.
+
 ## License
 
 GPL-3.0.

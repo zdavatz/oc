@@ -57,7 +57,7 @@ delivery through a home-care pharmacy, preparing and enriching with
 powdered oral nutrition, dry mouth, home-care time windows, night-time
 restlessness and abdominal cramps, vomiting and weakness leading to
 admission, who to notify on admission, questions for the admitting
-physicians,
+physicians and how to reach them,
 a one-page weekly timetable with link annotations, calendar invites and threaded replies via the Gmail REST API — never the Gmail MCP connector or
 browser automation for that; the user has said so explicitly). They are
 not part of the document. Keep them free of any personal data: no patient
