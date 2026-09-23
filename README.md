@@ -491,6 +491,23 @@ doses (paracetamol can hide fever), stents and the date of their
 placement, the last bowel movement, drugs stopped for intolerance, and
 current oral nutrition.
 
+Several physicians will hand over during the evening, so repeat those
+points to each of them. Ask every one of them:
+
+- What is the working diagnosis: obstruction, infection, stents, or
+  electrolytes and kidney function?
+- Which tests are being done: blood, urine, ultrasound or CT?
+- What treatment is she getting now: IV fluids, antiemetics, analgesia,
+  antibiotics?
+- Is she admitted, to which ward, and on which number can the family ask?
+- Does the next day's planned consultation still stand?
+- Is the first cycle of chemotherapy postponed until the cause is clear?
+
+In hospital the physicians decide on laxatives. Tell them which reserve
+laxative is on the home list (a stimulant such as sodium picosulfate or
+an osmotic one such as macrogol) and when it was last taken. Stimulant
+laxatives are withheld while obstruction is suspected.
+
 ## License
 
 GPL-3.0.
