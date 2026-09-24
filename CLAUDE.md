@@ -50,7 +50,7 @@ anchor before replacing, then run `make` before committing.
 ## Side notes outside the fact sheet
 
 `README.md` carries generic notes gathered while using this repo for a
-real case (tumour profiling, lab printouts, HIN Mail and DICOM handling,
+real case (tumour profiling and what a liquid biopsy can change, lab printouts, HIN Mail and DICOM handling,
 the 2026 drug landscape, discharge and home-care logistics, warning signs
 and pain medication before the first cycle, nutrition, sample
 delivery through a home-care pharmacy, preparing and enriching with

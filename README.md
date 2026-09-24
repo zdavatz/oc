@@ -55,6 +55,15 @@ all imaging as DICOM, all laboratory values, interim and progress reports,
 pathology, operation and discharge reports, delivered electronically.
 Otherwise imaging and interim notes are commonly omitted.
 
+A university gynaecology department may send in only 10 to 20 liquid
+biopsies a year, so the test is not yet routine. It still gives
+information that can change treatment. A BRCA change or another
+homologous-recombination defect makes a PARP inhibitor such as olaparib
+an option for maintenance after chemotherapy. A repeat test shows
+whether the tumour fraction in the blood falls under treatment. Ask when
+the result is expected, and make sure the result of a sample taken
+before chemotherapy reaches the family as well.
+
 Sources:
 
 - USZ, Foundation Medicine order form:
