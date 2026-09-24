@@ -632,6 +632,31 @@ the question to ask. Why not a thicker stent, tandem stents, a metal
 stent or a nephrostomy? And should the interval stay at six months, or
 should ultrasound and creatinine be checked sooner?
 
+When the tumour itself causes the stents to fail, chemotherapy is the
+only treatment that can take the pressure off the ureters. The family
+may then want to start treatment sooner than the team plans. Write to
+the oncologist and put these in the mail:
+
+- a short chain of evidence from the operation reports, such as
+  extrinsic compression and kinking
+- that the patient herself feels ready and wants to start
+- a request to visit her on the ward the next day
+- the wish for inpatient treatment, so that kidneys, infection, fluids
+  and stents are monitored closely
+- a request to coordinate with urology and discuss the case at the
+  tumour board
+
+Ask for the criteria for starting rather than demanding a start during
+active sepsis. Most oncologists hold chemotherapy until the fever,
+inflammatory markers and creatinine improve. Carboplatin is dosed from
+kidney function. Paclitaxel is cleared mainly by the liver, so a
+possible compromise is to start weekly paclitaxel alone and add
+carboplatin once the kidneys recover. That depends on liver values.
+
+If the family edits the draft in the mail program, read the current
+draft back before changing it again, so their edits are kept. Phrase a
+firm request as a sentence, not as a question.
+
 ## License
 
 GPL-3.0.
