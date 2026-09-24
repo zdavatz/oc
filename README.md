@@ -577,6 +577,36 @@ Hospital teams often prefer to send findings in one batch rather than
 piece by piece. Accept that, and ask the ward directly for the room
 number and visiting times.
 
+Reconstruct the timeline of the stents from the discharge letter before
+you ask why they failed. The letter usually lists every device: soft
+double-J catheters from an external clinic, then tumour stents with a
+larger calibre and length placed by cystoscopy. It also gives the
+planned exchange interval, often six months. Count the days from the
+last placement to the failure. Failure within two weeks points to tumour
+pressure from outside or to infection, not to wear. The physician who
+signs a discharge letter from internal medicine is usually not the
+urologist who placed the stents. The operator's name is only in the
+urology operation report, so request every operation report by date.
+
+The anaesthesia pre-assessment printed for an emergency procedure is
+worth photographing. It often holds what no other document gives the
+family on the first day:
+
+- the working diagnosis, e.g. suspected urosepsis with acute kidney
+  injury
+- the night's blood values: creatinine, leukocytes, CRP, procalcitonin,
+  NT-proBNP
+- the oxygen requirement and the antibiotic with its start time
+- the ASA class
+- the patient's own decision on intensive care and resuscitation
+
+Tell the family about that decision with care. It belongs to the
+patient.
+
+When a same-day conversation is needed, say so at the top of the mail
+in capitals, with a phone number. Name the dates of the procedures and
+the question, and ask for a physician who knows the case.
+
 ## License
 
 GPL-3.0.
