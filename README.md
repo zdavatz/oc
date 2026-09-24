@@ -607,6 +607,31 @@ When a same-day conversation is needed, say so at the top of the mail
 in capitals, with a phone number. Name the dates of the procedures and
 the question, and ask for a physician who knows the case.
 
+What a urology operation report for a stent exchange contains:
+
+- the operator and the physicians who visé or sign it, often a resident
+  with a senior physician countersigning
+- the duration, the anaesthesia and the indication
+- the retrograde pyelography findings: how dilated each renal pelvis
+  is, and any kinking or narrowing of the ureter
+- the calibre and length of the stents placed, but usually not the
+  product name
+- any cultures taken from the renal pelvis
+- whether a bladder catheter was left in
+- the plan: follow-up ultrasound, antibiotics, thrombosis prophylaxis
+  adapted to kidney function, the next exchange interval, and when to
+  call early
+
+A sepsis report may give a SOFA score. Two points or more define sepsis,
+so six means real organ dysfunction. The copy list shows which outside
+physicians are kept informed, e.g. the urologist who placed the first
+catheters elsewhere.
+
+If an early failure is followed by the identical stent again, that is
+the question to ask. Why not a thicker stent, tandem stents, a metal
+stent or a nephrostomy? And should the interval stay at six months, or
+should ultrasound and creatinine be checked sooner?
+
 ## License
 
 GPL-3.0.
