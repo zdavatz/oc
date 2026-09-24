@@ -516,6 +516,31 @@ address or card, or write to the clinic secretariat, which files every
 mail in the record and forwards it. For questions the same evening,
 the ward's phone number is faster than mail.
 
+Once the admitting department is known, use the names the patient or
+relatives are given on the ward, e.g. a surgeon's full name, to get the
+real addresses. Then send the records request straight to the treating
+physicians and that department's secretariat as well, not only to the
+clinic that planned the chemotherapy. A patient can move from one clinic
+to another within hours (emergency, then urology), and each keeps its
+own documents.
+
+What such a request asks for, sent as early as possible:
+
+- admission, interim, operation and discharge reports
+- blood and urine values, including the urine culture with antibiotic
+  resistance testing
+- all imaging, both as written findings and as DICOM
+- the current medication list
+
+Attach the signed release of confidentiality every time, and ask the
+new department to coordinate with the oncologist about the postponed
+cycle.
+
+Blocked or infected ureteric stents can cause fever, flank and abdominal
+pain, vomiting and weakness all at once. They are exchanged by
+cystoscopy under a short anaesthetic, without an incision. The first
+chemotherapy is usually delayed until the infection is treated.
+
 ## License
 
 GPL-3.0.
