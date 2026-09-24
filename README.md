@@ -541,6 +541,33 @@ pain, vomiting and weakness all at once. They are exchanged by
 cystoscopy under a short anaesthetic, without an incision. The first
 chemotherapy is usually delayed until the infection is treated.
 
+Urine backing up above a failed stent stretches the renal pelvis. That
+causes colicky flank and abdominal pain, often with nausea and vomiting,
+and with fever if the urine is infected. Once drainage is restored, the
+pain usually eases within hours to a few days. In peritoneal
+carcinomatosis a stent often fails because tumour presses on the ureter
+from outside. Other causes are encrustation, clots, infection, or a stent
+that has moved or kinked. The urologists then choose between:
+
+- two stents side by side in each ureter
+- metal stents, which resist outside pressure and stay in longer
+- a percutaneous nephrostomy, the most reliable option under tumour
+  pressure but a burden in daily life
+
+Chemotherapy that shrinks the tumour may relieve the pressure by itself.
+
+Ask the team:
+
+- What did the removed stents show?
+- What did the urine culture grow, and how long will antibiotics run?
+- What is the kidney function after the exchange?
+- Which long-term solution is planned, and when will they decide?
+- When is discharge, and is the postponed first cycle confirmed?
+
+Hospital teams often prefer to send findings in one batch rather than
+piece by piece. Accept that, and ask the ward directly for the room
+number and visiting times.
+
 ## License
 
 GPL-3.0.
