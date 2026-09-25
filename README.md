@@ -657,6 +657,35 @@ If the family edits the draft in the mail program, read the current
 draft back before changing it again, so their edits are kept. Phrase a
 firm request as a sentence, not as a question.
 
+Photographs from the room are often the fastest source of facts during
+an admission.
+
+- The whiteboard names the room and the nursing shifts. A printed line
+  such as "discharge at 10:00" is the ward's standard time, not a
+  discharge date.
+- An orange fluid card means a 24-hour balance was ordered. Ask how much
+  urine came out over the same period.
+- The bedside chart gives the trend of temperature, pulse, blood
+  pressure, oxygen saturation and pain score. It also shows the
+  resuscitation status and whether an advance directive is on file, and
+  lists the medication actually given.
+
+Check that medication list against what is known from home. A drug the
+patient did not tolerate may have been restarted, e.g. a proton-pump
+inhibitor. A potassium binder such as polystyrene sulfonate points to
+high potassium and can cause constipation. An antihypertensive may still
+run while blood pressure is low after sepsis.
+
+A decision against resuscitation discussed only verbally is recorded as
+an emergency order, but "no advance directive" still stands. A short
+written directive, drawn up calmly with the family or the GP, protects
+the patient's wishes at later admissions too.
+
+A delayed first cycle can come forward once the fever settles and the
+pulse normalises on antibiotics, e.g. to the next working day instead
+of a week later. When the date moves, rewrite a pending request mail to
+the oncologist rather than sending the outdated one.
+
 ## License
 
 GPL-3.0.
