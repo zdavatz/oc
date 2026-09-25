@@ -686,6 +686,58 @@ pulse normalises on antibiotics, e.g. to the next working day instead
 of a week later. When the date moves, rewrite a pending request mail to
 the oncologist rather than sending the outdated one.
 
+Comparing two stent exchanges on one page helps the family and the
+team. Align both episodes by day relative to the procedure (day −1, 0,
++1 …), not by calendar date. Set creatinine and eGFR, potassium and
+sodium, CRP, procalcitonin and leukocytes, and haemoglobin side by side.
+Highlight the values that are out of range today, and state what each
+percentage refers to. Creatinine typically peaks on the day of the
+procedure and falls from the next day. It falls fastest in the first
+three days and settles after about a week. Recovery is slower when
+sepsis adds its own kidney injury.
+
+When the swelling of weeks disappears within days of a working stent
+(postobstructive diuresis), the obstruction was the main cause of the
+fluid overload. Sodium, potassium, magnesium and phosphate then shift
+quickly, so daily labs matter. At home, a daily weight taken at the same
+time every morning is the earliest warning that the stents are failing
+again. Call if the patient gains 1 to 2 kg in two or three days, passes
+less urine, or the legs, abdomen or breathlessness get worse.
+
+A bladder catheter after a stent exchange keeps bladder pressure low,
+which helps drainage through the stents, and makes hourly urine output
+measurable. It adds a bacteriuria risk of about 3 to 7 % per catheter
+day, may add some bleeding and bladder spasms, and makes catheter urine
+samples look infected almost by default. Cultures taken from the renal
+pelvis during the operation are more informative.
+
+Published reference points, useful for orientation and not a
+substitute for the team:
+
+- KDIGO: urine output below 0.5 ml/kg/h for 6 h defines acute kidney
+  injury.
+- eGFR by the BIS1 equation for women around 80: median about 63, 5th
+  percentile about 46 ml/min/1.73 m².
+- AABB 2023: transfusion is considered below 70 g/l haemoglobin in
+  stable inpatients, and below 80 g/l with cardiovascular disease.
+- In ovarian cancer, about 7 % of patients develop hydronephrosis. Stent
+  and nephrostomy fail at similar rates, about 17 to 19 % in a year.
+  Obstruction found together with the cancer diagnosis resolves more
+  often, and renal atrophy predicts failure.
+
+Sources: [KDIGO AKI guideline](https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf),
+[eGFR reference values, Kidney International](https://www.kidney-international.org/article/S0085-2538(25)00252-2/fulltext),
+[AABB 2023](https://pubmed.ncbi.nlm.nih.gov/37824153/),
+[Ovarian cancer and ureteral obstruction](https://pmc.ncbi.nlm.nih.gov/articles/PMC11816973/),
+[Stent failure prediction](https://pmc.ncbi.nlm.nih.gov/articles/PMC10613761/).
+
+Printing: a PDF that looks right on screen can print as shifted
+letters, e.g. "0 XP D" for a four-letter name. The printer's Ghostscript
+filter misreads the embedded font. Converting text to outlines with
+Ghostscript itself repeats the error. What works is rewriting the file
+with Poppler (`pdftocairo -pdf in.pdf out.pdf`) and checking it with
+`gs -sDEVICE=txtwrite` before printing or sending it.
+
 ## License
 
 GPL-3.0.

@@ -63,7 +63,9 @@ timeline, reading operation reports, SOFA score), the anaesthesia
 pre-assessment,
 requesting a same-day callback, asking the oncologist for an earlier
 inpatient start of chemotherapy, reading the ward whiteboard and bedside
-chart, advance directives,
+chart, advance directives, comparing two stent exchanges, bladder
+catheter effects, published reference values, printing PDFs that
+Ghostscript misreads,
 a one-page weekly timetable with link annotations, calendar invites and threaded replies via the Gmail REST API — never the Gmail MCP connector or
 browser automation for that; the user has said so explicitly). They are
 not part of the document. Keep them free of any personal data: no patient
