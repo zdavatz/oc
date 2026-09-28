@@ -731,6 +731,89 @@ Sources: [KDIGO AKI guideline](https://kdigo.org/wp-content/uploads/2016/10/KDIG
 [Ovarian cancer and ureteral obstruction](https://pmc.ncbi.nlm.nih.gov/articles/PMC11816973/),
 [Stent failure prediction](https://pmc.ncbi.nlm.nih.gov/articles/PMC10613761/).
 
+Cultures after urosepsis:
+
+- If the same organism grows in all blood-culture bottles and in both
+  renal pelves, the stents were the source. *Enterococcus faecalis* is
+  usually ampicillin-sensitive, so piperacillin-tazobactam covers it.
+- Cephalosporins (ceftriaxone, cefuroxime prophylaxis) do not work
+  against enterococci and may have let them take hold.
+- Enterococcal bacteraemia in the elderly raises the question of
+  endocarditis. Ask about an infectious-disease consult, follow-up blood
+  cultures, an echocardiogram (TEE if needed), and the planned treatment
+  duration before chemotherapy starts.
+- *Candida* in the renal pelvis with stents is often colonisation. The
+  IDSA 2016 guideline treats asymptomatic candiduria only in neutropenia
+  (i.e. once chemotherapy lowers the white count), before urological
+  procedures, or with pyelonephritis or fungus balls. Fungus balls can
+  block stents.
+
+Which stent is in the patient:
+
+- Operation reports often give only "tumour stent, Ch 7/28 cm". Implant
+  cards for polymer stents are often not handed out, because there is no
+  obligation for non-metal devices.
+- The operating-room material record holds manufacturer, REF and LOT.
+  Ask the senior urologist for it. Ward nurses usually cannot supply it.
+- Reinforced tumour stents differ in radial stiffness by a factor of
+  three to four between brands. Flow simulations show stagnant zones,
+  where encrustation starts, in some designs but not others.
+- A single-centre series of 182 reinforced tumour stents found
+  failure-free survival of 89 % at one month and 52 % at five months,
+  despite a nominal six-month dwell time. Bilateral insertion, intrinsic
+  obstruction and urinary infection at insertion predicted failure.
+- Compression resistance does not protect against biofilm or
+  encrustation. Material, coating, flow and dwell time do.
+- Options when stents keep failing: thicker (Ch 8–8.5) reinforced stents,
+  tandem stents, metal stents (after infection is cleared), nephrostomy,
+  or a subcutaneous nephrovesical bypass.
+- The Swiss UDI register (swissdamed) lists ureteral stents only by
+  article number and size. It currently covers few manufacturers, so it
+  is useful only once the REF is known.
+
+How secure is the diagnosis:
+
+- A "high-grade serous" finding on ascites cytology, without a
+  laparoscopy or tissue biopsy, is a strong suspected diagnosis.
+- ESMO 2023 and the ESGO–ESMO–ESP consensus prefer histology from an
+  image-guided or surgical biopsy before chemotherapy, with enough tumour
+  cells (≥30 %) for BRCA/HRD testing. Cytology is acceptable only as an
+  exception and should be backed by immunohistochemistry on a cell block.
+- An ultrasound-guided core biopsy of the omentum under local
+  anaesthetic is the gentle route for frail patients (ISUOG/ESGO 2025).
+- Cheap blood tests help too: a CA-125/CEA ratio above 25 favours a
+  Müllerian origin over a gastrointestinal one.
+- The referring hospital's transfer letter lists which tests and
+  biopsies were still pending, and who received copies (e.g. the
+  endoscopist). Use it to chase missing histology.
+
+Liver values and chemotherapy: paclitaxel is dose-adjusted by bilirubin
+and AST/ALT, not by GGT or alkaline phosphatase. A cholestatic pattern
+with normal bilirubin allows full dosing. Carboplatin follows kidney
+function. For unexplained cholestasis in peritoneal carcinomatosis, start
+with ultrasound, then MRCP (no contrast needed). ERCP is only for rising
+bilirubin or cholangitis. Sepsis cholestasis typically raises bilirubin
+more than GGT.
+
+Protein in acute kidney injury: do not stop meat. ESPEN suggests about
+0.8–1.0 g/kg/day without dialysis, and more for cancer once the kidneys
+recover. Avoid processed meat (salt, phosphate), and count protein drinks
+towards the total. A large meat meal raises measured creatinine for a
+few hours. Polystyrene sulfonate lowers potassium and can constipate.
+Stop it once potassium is normal. Soft stool after days without one is
+a good sign. With three or more watery stools a day on antibiotics, test
+for *C. difficile*. Hot-water bottles on the abdomen are fine if not too
+hot, covered and not lain on, but check the skin: old, oedematous skin
+burns easily.
+
+One-page research summaries are useful when the family wants to ask a
+specialist informed questions. Verify authorship through Europe PMC
+(`AUTH:"Name XY"` search) rather than search-engine snippets. Show the
+PubMed ID in blue. After converting with `pdftocairo`, overlay link
+annotations. Find each ID's box with `pdftotext -bbox`, and pair the
+label with the number spatially, because words in narrow table cells do
+not come out in reading order.
+
 Printing: a PDF that looks right on screen can print as shifted
 letters, e.g. "0 XP D" for a four-letter name. The printer's Ghostscript
 filter misreads the embedded font. Converting text to outlines with
