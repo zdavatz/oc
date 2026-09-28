@@ -68,7 +68,8 @@ catheter effects, published reference values, printing PDFs that
 Ghostscript misreads, cultures after urosepsis (enterococci, candida),
 identifying and comparing tumour stents, how secure a cytology-only
 diagnosis is (ESMO/ESGO), liver values and paclitaxel, protein in AKI,
-linked one-page research summaries,
+linked one-page research summaries, where urology versus radiology
+images are stored and PACSonWEB access codes,
 a one-page weekly timetable with link annotations, calendar invites and threaded replies via the Gmail REST API — never the Gmail MCP connector or
 browser automation for that; the user has said so explicitly). They are
 not part of the document. Keep them free of any personal data: no patient

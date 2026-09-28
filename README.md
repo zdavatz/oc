@@ -814,6 +814,24 @@ annotations. Find each ID's box with `pdftotext -bbox`, and pair the
 label with the number spatially, because words in narrow table cells do
 not come out in reading order.
 
+Where hospital images live. Urology ultrasounds are often made on the
+department's own device (e.g. a bkSpecto unit labelled "Abdomen/UROLOGIE"),
+and intra-operative fluoroscopy stays in the urology system. Neither
+reaches the radiology archive, so a PACSonWEB access from radiology lists
+only CT, X-ray and radiology ultrasound. Request urology images from the
+urology secretariat. They may come by HIN as JPEGs; ask again for DICOM
+originals and the written findings. The cover sheet of an ultrasound
+series records height and weight. Comparing it with later ward weights
+can quantify how much fluid left the body after drainage was restored.
+
+PACSonWEB: every new access letter has its own reference code, and the
+browser keeps the old session until you log out, so log out before
+entering a new code. Studies listed on the letter can appear hours after
+the access is issued. If they are still missing, ask the radiology
+archive. The family logs in itself. An assistant should not type access
+codes into login forms, but can open and read studies once the session
+exists.
+
 Printing: a PDF that looks right on screen can print as shifted
 letters, e.g. "0 XP D" for a four-letter name. The printer's Ghostscript
 filter misreads the embedded font. Converting text to outlines with
