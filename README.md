@@ -468,6 +468,13 @@ Two patterns that proved useful beyond PDFs:
   catheter and stents. Copy the senior physician who signs the
   operation reports, name the oncologist who needs it for planning, and
   attach the signed release from confidentiality.
+- **Signed versus unsigned release.** The blank template of a release
+  from confidentiality and the signed scan tend to sit side by side with
+  near-identical names. Keep only the signed one where attachments are
+  picked up, put "signed" and the date in its filename, and check the
+  name (and size: a scan is several times larger) before sending. If the
+  template went out anyway, answer in the same thread at once with the
+  signed version and a one-line apology; no need to repeat the request.
 
 ## A one-page weekly timetable (notes)
 
