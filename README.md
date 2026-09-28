@@ -71,6 +71,18 @@ Sources:
 - Roche Diagnostics Switzerland, FoundationOne Liquid CDx:
   https://diagnostics.roche.com/ch/de/article-listing/foundation-one-liquid-cdx.html
 
+**Checklist of results still missing before chemotherapy.** When the
+diagnosis rests on cytology alone, list what has never come back or was
+never ordered: immunohistochemistry on the ascites cell block (confirms
+a gynaecological origin), histology of any biopsies taken at an earlier
+endoscopy, the original cytology report itself, somatic BRCA/HRD, FRα
+and PD-L1 on the cell block while untreated material is left, germline
+BRCA from blood (recommended for every high-grade serous carcinoma), the
+liquid biopsy result, final culture reports with antifungal
+susceptibility, and inconclusive pleural cytology. Stent exchanges take
+no tissue. For each item name who holds it (gynaecological oncology,
+the referring clinic, pathology).
+
 ## Reading a hospital lab printout (notes)
 
 Generic checklist that came out of reading cumulative lab sheets for a
@@ -334,6 +346,18 @@ thrush. Offer small sips every 10 to 15 minutes, ice chips, a saliva
 gel from the pharmacy and gentle mouth care. That care matters anyway
 before carboplatin and paclitaxel.
 
+Patients who like a malted cocoa drink can keep it as a flavour rather
+than as the main source. A 20 g portion in 2 dl milk gives about
+200 kcal and 8 g protein, most of it from the milk. Similar shop
+products: malt plus cocoa (the closest), plain malted milk (milder),
+cocoa-only powders (no malt). Chocolate or mocha sip feeds from the
+pharmacy give 300 to 400 kcal and 12 to 20 g protein in 125 to 200 ml.
+The simplest trick: stir a teaspoon of the malted drink into the
+high-density powder shaken with warm milk, so it tastes familiar but
+carries the full portion. Malt, cocoa and milk contain potassium and
+phosphate; harmless while potassium is low, but ask the ward once
+creatinine or potassium rise again.
+
 ## Working with the hospital's DICOM images (notes)
 
 Swiss hospitals hand out imaging via a PACSonWEB reference code (patient
@@ -429,6 +453,21 @@ Two patterns that proved useful beyond PDFs:
   `raw` in `drafts.create`. Providers who answer in five words ("Thu
   10/11 o'clock") get a reply that lists everything else on that day so
   they can spot the collision themselves.
+- **Bounces from hospital addresses.** Large hospitals often build
+  addresses from *all* first names (`firstsecond.last@…`), so the obvious
+  `first.last@…` returns `550 5.1.1 User unknown`. Check the physician's
+  page on the hospital website before sending, copy the department's
+  general address so the mail lands even if one address is wrong, and
+  after sending search for `from:mailer-daemon newer_than:1d`. Only the
+  failed recipient needs the resend; say so, because the others get a
+  duplicate.
+- **Asking for an interim report.** During a long stay, the ward
+  physician who visited can be asked in writing for an interim report
+  (*Zwischenbericht*): the reason for admission, procedures, kidney
+  values, culture results with the planned treatment, and the plan for
+  catheter and stents. Copy the senior physician who signs the
+  operation reports, name the oncologist who needs it for planning, and
+  attach the signed release from confidentiality.
 
 ## A one-page weekly timetable (notes)
 
