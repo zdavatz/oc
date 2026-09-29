@@ -401,6 +401,16 @@ evening; none replaces the ward physician.
 - **Check the tablets too.** Fluconazole raises amlodipine levels
   (hypotension, oedema), prolongs QT (worse with low potassium), needs a
   renal dose, and slows paclitaxel breakdown; tell the oncologist.
+- **Potassium replacement looks like this.** Effervescent tablets,
+  slow-release potassium chloride tablets or capsules, syrup, or an
+  infusion bag labelled KCl. A resin powder stirred into water does the
+  opposite (binds potassium) and should stop once potassium is low.
+- **Appetite stays poor while inflammation is high.** Infection, ascites
+  pressing on the stomach, antibiotics, antifungals and residual
+  uraemia all dampen it. Six to eight tiny portions, energy-dense sip
+  feeds, cold foods that smell less, no pressure at the table, a look in
+  the mouth for thrush, and a request for the ward dietitian and an
+  antiemetic before meals if there is nausea.
 - **Microbiology lab or infectious diseases?** The lab signs off results
   for the treating physicians and does not discuss them with families.
   For bacteraemia plus candida plus stents before chemotherapy, the
@@ -540,9 +550,28 @@ Two patterns that proved useful beyond PDFs:
 - **When the clinic asks to route communication through the patient.**
   Agree to bundle (one physician or the department address, fewer
   copies), but state plainly that the patient has mandated the relative
-  with a signed release and that the right of access (Art. 25 DSG,
-  cantonal patient law) applies through a representative. It worked:
-  the next reply promised all reports and brought the missing images.
+  with a signed release and that the right of access applies through a
+  representative. It worked: the next reply promised all reports and
+  brought the missing images.
+- **Cite the right law.** A cantonal hospital is a cantonal body, so the
+  federal Data Protection Act (Art. 25 DSG) does not apply directly. In
+  Zurich the basis is § 20 IDG (access to one's own personal data),
+  § 28 IDG (decision within 30 days, or a reasoned delay) and § 19 of
+  the cantonal patient law (inspection of the record and copies; copies
+  may carry a cost-covering fee). Official sources: zhlex.zh.ch and the
+  cantonal data protection commissioner (datenschutz.ch).
+- **When it escalates.** A clinic may answer a heated phone call with a
+  written warning that direct communication could be restricted. Reply
+  in writing, factually, one recipient, and copy the hospital's data
+  protection office and complaints office if the issue is access to
+  records. What helps more than arguing: ask that the signed release be
+  noted visibly in the record so nurses can answer the phone; ask for
+  one named contact person; separate data that already exist (labs,
+  culture results, imaging reports and images, sendable at once) from
+  physician letters that take time; name the staff who handled it well.
+  With half-private insurance the patient has a free choice of senior
+  physician; asking to be told in advance of chief-physician rounds, so
+  a relative can attend, is reasonable.
 
 ## A one-page weekly timetable (notes)
 
