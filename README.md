@@ -358,6 +358,54 @@ carries the full portion. Malt, cocoa and milk contain potassium and
 phosphate; harmless while potassium is low, but ask the ward once
 creatinine or potassium rise again.
 
+## Evening checks on the ward (notes)
+
+When a relative reports new symptoms from the bedside, a few questions
+separate the harmless from the urgent. Each item below came up in one
+evening; none replaces the ward physician.
+
+- **Pain suddenly back at 7/10.** Check the obvious first: an infusion
+  in the elbow crease kinks whenever the arm bends, and the analgesic
+  stops. Ask for the missed dose and a cannula on the forearm or hand.
+- **Pain eases after the bladder empties.** With double-J or tumour
+  stents, a full bladder pushes urine back up to the kidney (reflux) and
+  hurts in the flank. With a catheter in place the bladder should never
+  fill: tubing without kinks, bag below bladder level, flush if it does
+  not drain. Bladder spasms around catheter plus stents respond to
+  tamsulosin or trospium (less confusing than oxybutynin in the elderly).
+- **Cloudy urine.** Common with a catheter. Clear urine in the bag does
+  not rule out a blocked stent on one side, because the other kidney
+  still drains.
+- **37.3 °C under paracetamol.** Paracetamol lowers temperature; the
+  leukocyte trend is the better signal.
+- **Diffuse anterior abdominal pain with leukocytes jumping overnight.**
+  Think of peritonitis (hard abdomen, pain on release), *Clostridioides
+  difficile* (soft, foul-smelling stool under broad-spectrum antibiotics;
+  proton-pump inhibitors roughly double the risk), bowel obstruction
+  (no stool or wind, vomiting), more ascites, and only then tumour pain.
+  Ask for a targeted *C. difficile* test (GDH antigen, toxin or PCR), not
+  a general stool culture; a negative GDH makes it very unlikely, and the
+  diarrhoea is then usually the antibiotic itself. Visitors wash hands
+  with soap, since alcohol does not kill the spores.
+- **Cough on every change of position, choking only when upset.** Points
+  to pleural effusion or fluid pushing the diaphragm up, or to saliva
+  when breathing and swallowing fall out of step. Check oxygen
+  saturation and breathlessness at rest; keep the upper body at 30 to 45
+  degrees.
+- **Read the labels on the drip stand.** A Ringer-acetate bag at 10 ml/h
+  only keeps the vein open and delivers about 1 mmol potassium a day; it
+  is not potassium replacement. Paracetamol 1 g bottles: in a frail,
+  underweight patient with abnormal liver values ask for at most 3 g a
+  day, and for a second scheduled analgesic (not an NSAID with kidney
+  injury) if pain stays above 4.
+- **Check the tablets too.** Fluconazole raises amlodipine levels
+  (hypotension, oedema), prolongs QT (worse with low potassium), needs a
+  renal dose, and slows paclitaxel breakdown; tell the oncologist.
+- **Microbiology lab or infectious diseases?** The lab signs off results
+  for the treating physicians and does not discuss them with families.
+  For bacteraemia plus candida plus stents before chemotherapy, the
+  useful request is an infectious-diseases consult via the ward.
+
 ## Working with the hospital's DICOM images (notes)
 
 Swiss hospitals hand out imaging via a PACSonWEB reference code (patient
@@ -393,6 +441,15 @@ ducts dilate. Zooming does not reveal a tumour, because the cell layer
 is thinner than the contrast resolution. This is why diagnosis came from
 ascites cytology and why FAPI-PET, not CT, would image the disease
 itself.
+
+Ultrasound arrives differently: as small JPEG stills (about 700 pixels
+wide) attached to a secure mail, without the written report and without
+side labels. The DICOM originals add full resolution, adjustable
+contrast, header data and, most usefully, cine loops if the examiner
+saved any. Neither replaces the report, because the examiner watched
+live. Ask for both. Intraoperative fluoroscopy from a stent exchange
+may carry another department's code (the operating theatre belongs to
+trauma surgery) but can be requested from the operating urologist.
 
 ## Drug landscape, September 2026 (notes)
 
@@ -475,6 +532,17 @@ Two patterns that proved useful beyond PDFs:
   name (and size: a scan is several times larger) before sending. If the
   template went out anyway, answer in the same thread at once with the
   signed version and a one-line apology; no need to repeat the request.
+- **No bounce is not proof of the right recipient.** A guessed
+  `first.last@…` that does not bounce may belong to a namesake in another
+  department. Look the address up before sending; if patient data went
+  to the wrong person, send a short request to delete it without
+  forwarding, and resend to the correct address.
+- **When the clinic asks to route communication through the patient.**
+  Agree to bundle (one physician or the department address, fewer
+  copies), but state plainly that the patient has mandated the relative
+  with a signed release and that the right of access (Art. 25 DSG,
+  cantonal patient law) applies through a representative. It worked:
+  the next reply promised all reports and brought the missing images.
 
 ## A one-page weekly timetable (notes)
 
