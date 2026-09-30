@@ -79,6 +79,9 @@ ultrasound stills versus DICOM, wrong-namesake addresses, answering a
 request to route communication through the patient,
 citing cantonal rather than federal data law, handling an escalation
 with a hospital, potassium replacement forms, poor appetite on the ward,
+the hospital's formal online records request, implant cards (Art. 20
+MepV), creatinine rising again, haemoglobin near the transfusion
+threshold, drafts already sent from the Gmail UI,
 a one-page weekly timetable with link annotations, calendar invites and threaded replies via the Gmail REST API — never the Gmail MCP connector or
 browser automation for that; the user has said so explicitly). They are
 not part of the document. Keep them free of any personal data: no patient

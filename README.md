@@ -405,6 +405,15 @@ evening; none replaces the ward physician.
   slow-release potassium chloride tablets or capsules, syrup, or an
   infusion bag labelled KCl. A resin powder stirred into water does the
   opposite (binds potassium) and should stop once potassium is low.
+- **Creatinine rises again after falling for days.** Two causes to
+  separate: fluid loss (diarrhoea, poor intake), which responds to
+  fluids, and renewed obstruction of a stent, which needs ultrasound. A
+  side that was hard to see on the last scan is not cleared. Read it
+  together with CRP and leukocytes: all three rising means the infection
+  is not controlled, and chemotherapy will wait.
+- **Haemoglobin drifting towards 70 g/l.** Many hospitals transfuse
+  around 70, earlier with symptoms. Ask whether blood is lost in stool
+  or urine.
 - **Appetite stays poor while inflammation is high.** Infection, ascites
   pressing on the stomach, antibiotics, antifungals and residual
   uraemia all dampen it. Six to eight tiny portions, energy-dense sip
@@ -553,6 +562,27 @@ Two patterns that proved useful beyond PDFs:
   with a signed release and that the right of access applies through a
   representative. It worked: the next reply promised all reports and
   brought the missing images.
+- **The formal records request.** The complaints office answers a
+  copied complaint within a day, confirms the right of access and points
+  to the hospital's online form for requesting records. Upload a copy of
+  the patient's identity card and, when a relative asks on her behalf,
+  the signed release as authorisation. The form is the official channel:
+  the 30-day deadline runs from its receipt, so file it even while mails
+  with the ward continue. List exactly what is wanted (lab values,
+  culture results, imaging reports, DICOM including ultrasound and
+  fluoroscopy, operation reports, implant cards).
+- **Implant cards.** Under Art. 20 of the Medical Devices Ordinance
+  (MepV, SR 812.213, in force since 26 May 2021, mirroring Art. 18 EU
+  MDR) the manufacturer supplies an implant card for implantable devices
+  (intended to stay at least 30 days), and the hospital fills in the
+  patient's details, hands it over and keeps the information readily
+  accessible. Tumour ureteric stents stay for months, but wards may say
+  no card is required; ask for copies of the implant labels from the
+  operation record (REF, LOT, UDI, each side, each exchange) as a
+  fallback.
+- **Draft vanished before sending.** `drafts.send` answering "Message
+  not a draft" usually means the user already sent it from the Gmail UI,
+  often with recipients added. Check the Sent folder before resending.
 - **Cite the right law.** A cantonal hospital is a cantonal body, so the
   federal Data Protection Act (Art. 25 DSG) does not apply directly. In
   Zurich the basis is § 20 IDG (access to one's own personal data),
