@@ -457,6 +457,11 @@ evening; none replaces the ward physician.
   from the radiology archive for each new study, attach the signed
   release, and list any earlier study that was announced but not
   visible.
+- **Cough and vomiting before admission.** A chest radiograph may
+  already say "aspiration possible" in a lower lobe while showing no
+  pneumonia. That fits coughing on position changes; ask what the next
+  CT shows in the lung and whether a speech therapist should assess
+  swallowing.
 - **Soft, salty, lukewarm food** suits a sore oesophagus and loose
   stool: mashed potato, egg dishes, broth with semolina or egg, puréed
   vegetable soups with cream, polenta, risotto, poached fish, cottage
@@ -511,6 +516,21 @@ ducts dilate. Zooming does not reveal a tumour, because the cell layer
 is thinner than the contrast resolution. This is why diagnosis came from
 ascites cytology and why FAPI-PET, not CT, would image the disease
 itself.
+
+The web viewer may refuse to show the report ("you are not authorised
+to view the report"), and the download dialog greys out "include
+report". Download "DICOM format" anyway, without the bundled viewer and
+with the original study data: the signed report still travels as a
+Basic Text SR series and reads out with the `ContentSequence` walk
+above. A report also names the prior study it was compared with, which
+reveals examinations that are not in the list.
+
+Plain radiographs (CR) come as JPEG Lossless, which `pydicom` cannot
+decode without GDCM or pylibjpeg. `dcmdjpeg in out` from DCMTK
+decompresses them first. Then scale between the 0.5 and 99.5
+percentiles, invert if `PhotometricInterpretation` is `MONOCHROME1`,
+and crop the lower lung zones at full resolution; the browser shows the
+same image at about a quarter of its size.
 
 Ultrasound arrives differently: as small JPEG stills (about 700 pixels
 wide) attached to a secure mail, without the written report and without
