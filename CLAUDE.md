@@ -82,6 +82,10 @@ with a hospital, potassium replacement forms, poor appetite on the ward,
 the hospital's formal online records request, implant cards (Art. 20
 MepV), creatinine rising again, haemoglobin near the transfusion
 threshold, drafts already sent from the Gmail UI,
+filling the online records form (requester's ID, proof upload, remark
+limit), a clinic director's paper reply, letters that arrive as photos,
+why a drug was started before stopping it, antibiotics before cultures,
+infusion versus tablet for pain, soft salty food,
 a one-page weekly timetable with link annotations, calendar invites and threaded replies via the Gmail REST API — never the Gmail MCP connector or
 browser automation for that; the user has said so explicitly). They are
 not part of the document. Keep them free of any personal data: no patient

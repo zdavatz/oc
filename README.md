@@ -83,6 +83,18 @@ susceptibility, and inconclusive pleural cytology. Stent exchanges take
 no tissue. For each item name who holds it (gynaecological oncology,
 the referring clinic, pathology).
 
+Get the original cytology report before calling immunohistochemistry
+"pending": a summary in a later discharge letter may refer to a
+different sample (pleura) while the ascites cell block was stained weeks
+ago. A typical panel reads PAX8 positive (Müllerian origin), CDX2
+negative (not intestinal), p53 mutation-type and p16 abnormal (fits
+high-grade serous). The referring practice often holds this report and
+the endoscopy histology, and forwards them on request. A liquid biopsy
+covers somatic BRCA only in part (false negatives with little tumour
+DNA in blood) and gives no HRD score; HRD needs tissue, which a
+cell-poor cell block rarely provides; germline BRCA is a separate blood
+test.
+
 ## Reading a hospital lab printout (notes)
 
 Generic checklist that came out of reading cumulative lab sheets for a
@@ -411,6 +423,30 @@ evening; none replaces the ward physician.
   side that was hard to see on the last scan is not cleared. Read it
   together with CRP and leukocytes: all three rising means the infection
   is not controlled, and chemotherapy will wait.
+- **Check why a drug was started before agreeing to stop it.** A proton
+  pump inhibitor raises the risk of *C. difficile*, but if an earlier
+  gastroscopy showed severe ulcerating reflux oesophagitis it is the
+  treatment (about eight weeks) and protects against bleeding. Reports
+  from the referring clinic may arrive weeks later and change the
+  answer; a falling haemoglobin then raises the question of bleeding
+  from the oesophagus.
+- **Antibiotics before admission blunt cultures.** Two days of
+  amoxicillin-clavulanate from a general practitioner can leave urine
+  and blood cultures empty, so a later enterococcal bacteraemia says
+  little about when the infection began.
+- **The cover sheet of an ultrasound carries the weight.** A drop of
+  1.5 kg in a day with diarrhoea points to volume loss as the cause of a
+  rising creatinine, when the kidneys show no new dilatation.
+- **Infusion or tablet for pain.** Same strength at the same dose;
+  the infusion acts within minutes and does not depend on swallowing or
+  absorption, the tablet needs 30 to 60 minutes. Switch to oral or
+  subcutaneous forms a few days before discharge, and remember that an
+  infusion fails silently when the line kinks.
+- **Soft, salty, lukewarm food** suits a sore oesophagus and loose
+  stool: mashed potato, egg dishes, broth with semolina or egg, puréed
+  vegetable soups with cream, polenta, risotto, poached fish, cottage
+  cheese; banana when potassium is low. Avoid acid (citrus, tomato),
+  spice, very hot food and raw vegetables for now.
 - **Haemoglobin drifting towards 70 g/l.** Many hospitals transfuse
   around 70, earlier with symptoms. Ask whether blood is lost in stool
   or urine.
@@ -571,6 +607,30 @@ Two patterns that proved useful beyond PDFs:
   with the ward continue. List exactly what is wanted (lab values,
   culture results, imaging reports, DICOM including ultrasound and
   fluoroscopy, operation reports, implant cards).
+  In practice the form asks for more than the reply suggests: scope
+  (single reports or the whole record, one or all clinics), a date
+  range, the patient's details, and for a third party the requester's
+  own address and identity card, front and back as two separate files,
+  plus one "proof" upload. Combine the signed release and the patient's
+  identity card into one PDF for that slot. The free-text remark holds
+  about 250 characters, so put the list of wanted data in one dense
+  sentence. Watermark every identity copy ("only for <hospital>, records
+  request, <date>") and keep it small (a few hundred kB). The fields sit
+  in an embedded form that browser automation cannot reach for uploads;
+  uploads, the captcha and the submit button stay with the user anyway.
+- **When the clinic director answers on paper.** A typical reply: the
+  team informs the patient, relatives can join those talks on request,
+  no day-by-day release of documentation during a stay, questions belong
+  to rounds or an arranged meeting. It is defensible, because the access
+  right comes with a 30-day deadline, not same-day delivery. Take the
+  offer literally (ask for a callback today and a fixed slot after
+  rounds) and state separately, without heat, what remains in dispute.
+  Do not suggest that a frail patient collect and relay her own lab
+  printouts; the relative with the release wants them sent directly.
+- **A letter that arrives as a photo.** A phone "scan" is a PDF with one
+  image and no text layer: `pdfimages` extracts it at full resolution
+  (`pdftoppm` at screen resolution is unreadable), then rotate and
+  downscale before reading.
 - **Implant cards.** Under Art. 20 of the Medical Devices Ordinance
   (MepV, SR 812.213, in force since 26 May 2021, mirroring Art. 18 EU
   MDR) the manufacturer supplies an implant card for implantable devices
@@ -580,6 +640,10 @@ Two patterns that proved useful beyond PDFs:
   no card is required; ask for copies of the implant labels from the
   operation record (REF, LOT, UDI, each side, each exchange) as a
   fallback.
+  The exemptions in Art. 18(3) MDR are sutures, staples, dental
+  fillings, braces, crowns, screws, wedges, plates, wires, pins, clips
+  and connectors; ureteric stents are not among them. Swissmedic
+  supervises hospitals on this.
 - **Draft vanished before sending.** `drafts.send` answering "Message
   not a draft" usually means the user already sent it from the Gmail UI,
   often with recipients added. Check the Sent folder before resending.
