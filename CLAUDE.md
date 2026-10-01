@@ -86,6 +86,9 @@ filling the online records form (requester's ID, proof upload, remark
 limit), a clinic director's paper reply, letters that arrive as photos,
 why a drug was started before stopping it, antibiotics before cultures,
 infusion versus tablet for pain, soft salty food,
+feeling better versus worse labs, CT after two worse days and a new
+PACSonWEB code per study, a one-page course summary (two-column genpdf
+overflow, shared target directory),
 a one-page weekly timetable with link annotations, calendar invites and threaded replies via the Gmail REST API — never the Gmail MCP connector or
 browser automation for that; the user has said so explicitly). They are
 not part of the document. Keep them free of any personal data: no patient

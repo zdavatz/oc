@@ -442,6 +442,21 @@ evening; none replaces the ward physician.
   absorption, the tablet needs 30 to 60 minutes. Switch to oral or
   subcutaneous forms a few days before discharge, and remember that an
   infusion fails silently when the line kinks.
+- **Feeling better while the labs get worse.** Less pain on the phone
+  often reflects good analgesia or less diarrhoea; CRP, leukocytes and
+  creatinine decide whether the infection is retreating. Two worse days
+  in a row are a trend: the question for the team is what changes in
+  treatment.
+- **A CT after two worse days** looks for the source: obstruction or
+  abscess around kidneys and stents, a walled-off collection, more
+  ascites, bowel obstruction or perforation, gallbladder, lung bases.
+  With an eGFR in the twenties it is often done without or with reduced
+  contrast, which shows abscesses less well; ask whether contrast was
+  given and watch creatinine for two to three days. CT goes through
+  radiology, so it appears in PACSonWEB: request a new reference code
+  from the radiology archive for each new study, attach the signed
+  release, and list any earlier study that was announced but not
+  visible.
 - **Soft, salty, lukewarm food** suits a sore oesophagus and loose
   stool: mashed potato, egg dishes, broth with semolina or egg, puréed
   vegetable soups with cream, polenta, risotto, poached fish, cottage
@@ -666,6 +681,28 @@ Two patterns that proved useful beyond PDFs:
   With half-private insurance the patient has a free choice of senior
   physician; asking to be told in advance of chief-physician rounds, so
   a relative can attend, is reasonable.
+
+## A one-page course summary (notes)
+
+After a transfer and a readmission nobody in the family holds the whole
+story. One landscape page does: left column the referring clinic (with
+reports that arrived late) and the first stay as a dated table, right
+column the current stay as a dated table with today's row in red, then
+open points and the state of records and communication. Sources and
+"no medical assessment" in one grey line under the title.
+
+With `genpdf`, a two-column `TableLayout` row does not split a column
+across pages: when one column is a line too long, a whole section jumps
+to page two. Check `pdfinfo` for the page count and `pdftotext -f 2` to
+see what spilled, then shorten sentences or move a section to the
+shorter column, and only then touch margins. A second small crate can
+reuse the first one's compiled dependencies offline by copying
+`Cargo.lock`, linking the fonts directory and building with
+`CARGO_TARGET_DIR` pointing at the first crate's `target`.
+
+Update the page whenever a fact changes (form submitted, new values),
+and write where a statement came from when it is not a document
+("by phone").
 
 ## A one-page weekly timetable (notes)
 
