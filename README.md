@@ -130,6 +130,21 @@ it for a patient with ovarian cancer; the clinic clarifies that first.
 Relatives are counselled by the same clinic, but only once the variant
 is confirmed in the patient, and then tested for that one variant.
 
+What it costs in Switzerland: the full analysis of BRCA1/2 (usually a
+gene panel) is about CHF 3600; a targeted test for a variant already
+known in the family is a few hundred francs, from about CHF 300, and
+faster. Counselling is billed as a medical consultation. Basic insurance
+has to cover counselling and test when the Swiss (SAKK) criteria are
+met, which a patient with ovarian cancer usually does, and first-degree
+relatives once the family variant is known. The clinic normally obtains
+a cost approval beforehand, because the insurer decides case by case;
+deductible and the 10 % co-payment apply as for any service.
+
+Sources: [Costs and coverage, Institute of Medical Genetics UZH](https://www.medgen.uzh.ch/dam/jcr:423590fb-9c91-4ed2-8c5d-3676ba79f8e0/21.1.1%20Info_Kosten_2023_04_13.pdf),
+[Genetic counselling, Kantonsspital Baden](https://blog.ksb.ch/wissen/brustkrebs-was-bringt-eine-genetische-beratung/),
+[Hereditary breast and ovarian cancer, Krebsliga](https://shop.krebsliga.ch/files/kls/webshop/PDFs/deutsch/erblich-bedingter-brust-und-eierstockkrebs-011004011111.pdf),
+[Genetic counselling HBOC, USZ](https://www.usz.ch/fachbereich/brustzentrum/angebot/genetische-beratung-bei-familiaerem-brust-und-eierstockkrebs-hboc-syndrom/).
+
 Ask for it in one mail to the physician who is the agreed contact, with
 the treating oncologist and the department that ordered the liquid
 biopsy in copy, each told in one sentence why they are copied. Quote
