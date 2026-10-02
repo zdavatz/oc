@@ -95,6 +95,30 @@ DNA in blood) and gives no HRD score; HRD needs tissue, which a
 cell-poor cell block rarely provides; germline BRCA is a separate blood
 test.
 
+Reading a liquid biopsy report. The hospital's pathology wraps the
+vendor report (some 26 pages) in a short local one; the comment on the
+local pages is what the pathologists want acted on. The table of short
+variants with allele fractions (VAF) sits on the last local page. Extract
+the text with `pdftotext -layout` and search it instead of paging
+through.
+
+- A pathogenic variant in a cancer susceptibility gene (BRCA1/2 and the
+  like) at a VAF near 50 % while the ctDNA tumour fraction is reported
+  as low (under 1 %) is very probably inherited: tumour DNA alone could
+  not reach that share. The report says it cannot tell germline from
+  somatic; a separate germline blood test and genetic counselling
+  settle it.
+- Tumour drivers show up at small fractions (TP53 below 1 % fits
+  high-grade serous). Variants flagged as possible clonal haematopoiesis
+  (ASXL1 and similar) come from the blood itself.
+- A BRCA mutation counts as homologous recombination deficiency, so a
+  tissue HRD test matters less. On average such tumours respond better
+  to platinum, and PARP inhibitors (olaparib, niraparib, rucaparib)
+  become an option as maintenance after a response; dose and choice
+  depend on kidney function.
+- A low tumour fraction also means a negative result would have
+  excluded nothing.
+
 ## Reading a hospital lab printout (notes)
 
 Generic checklist that came out of reading cumulative lab sheets for a
@@ -467,6 +491,17 @@ evening; none replaces the ward physician.
   vegetable soups with cream, polenta, risotto, poached fish, cottage
   cheese; banana when potassium is low. Avoid acid (citrus, tomato),
   spice, very hot food and raw vegetables for now.
+  From a Japanese kitchen the same idea reads: miso soup with silken
+  tofu, chawanmushi (steamed egg custard), rice porridge with egg
+  (okayu), rice soup with egg and finely cut chicken or fish (zosui),
+  soft udon with egg, simmered pumpkin or sweet potato; kinako or sesame
+  paste stirred in for protein and calories. Everything cooked through,
+  lukewarm, in cups rather than bowls, five or six times a day. Leave
+  out raw fish and raw egg, pickles, wasabi, tempura, konnyaku and large
+  amounts of seaweed. A complete powdered feed (one single-portion
+  bottle, 55 g, is one portion) is more than protein: a spoonful or two
+  per cup adds energy, protein and vitamins, stirred in once the food no
+  longer steams.
 - **Haemoglobin drifting towards 70 g/l.** Many hospitals transfuse
   around 70, earlier with symptoms. Ask whether blood is lost in stool
   or urine.
@@ -737,6 +772,21 @@ course in dated bullets, last labs, the latest imaging assessment, and
 at most three questions. Attach the original reports (imaging, cytology
 with immunohistochemistry, endoscopy with histology) and the one-page
 course summary; offer the rest.
+
+What such a meeting produces. The complaints manager may attend and take
+minutes; a request to record audio or video will be refused. A typical
+agreement: the right of access and the release are undisputed, there is
+no duty to deliver daily, documents go to the relative through one named
+physician in a fixed rhythm (for example every three days), medical
+questions belong to rounds, and imaging is fetched by the relative
+through the patient portal. Keep to it: one recipient, no parallel
+requests to the secretariat, nursing or other clinics.
+
+Check each batch against what was expected. A "cumulative report" can
+contain the blood count only; search the text for creatinine, CRP and
+potassium before assuming the chemistry is there, and ask the named
+physician for the missing section in one short mail that first thanks
+for what arrived.
 
 ## A one-page course summary (notes)
 
@@ -1098,6 +1148,10 @@ Cultures after urosepsis:
   endocarditis. Ask about an infectious-disease consult, follow-up blood
   cultures, an echocardiogram (TEE if needed), and the planned treatment
   duration before chemotherapy starts.
+- A transthoracic echocardiogram that finds "no larger vegetations" with
+  moderate image quality lowers the suspicion of endocarditis but does
+  not exclude small vegetations; follow-up blood cultures reported as
+  "result follows" are simply not finished (two to five days).
 - *Candida* in the renal pelvis with stents is often colonisation. The
   IDSA 2016 guideline treats asymptomatic candiduria only in neutropenia
   (i.e. once chemotherapy lowers the white count), before urological
