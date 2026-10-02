@@ -119,6 +119,25 @@ through.
 - A low tumour fraction also means a negative result would have
   excluded nothing.
 
+Arranging the germline test. It can be done in the same hospital: the
+university hospital runs a genetic counselling clinic for hereditary
+breast and ovarian cancer inside its gynaecology department
+(gyn.onkologie@usz.ch, +41 44 255 51 50; self-referral or referral).
+Swiss law ties a genetic test to counselling and written consent; the
+test itself is one blood tube, which can be drawn during an inpatient
+stay, and the result takes some weeks. Basic insurance usually covers
+it for a patient with ovarian cancer; the clinic clarifies that first.
+Relatives are counselled by the same clinic, but only once the variant
+is confirmed in the patient, and then tested for that one variant.
+
+Ask for it in one mail to the physician who is the agreed contact, with
+the treating oncologist and the department that ordered the liquid
+biopsy in copy, each told in one sentence why they are copied. Quote
+the pathology comment that recommends counselling, attach the report,
+and do not state the patient's consent on her behalf: it is obtained in
+the counselling session. Thank whoever made the test possible, also the
+colleague outside the hospital who suggested it.
+
 ## Reading a hospital lab printout (notes)
 
 Generic checklist that came out of reading cumulative lab sheets for a
@@ -717,6 +736,15 @@ Two patterns that proved useful beyond PDFs:
   rounds) and state separately, without heat, what remains in dispute.
   Do not suggest that a frail patient collect and relay her own lab
   printouts; the relative with the release wants them sent directly.
+- **Read the thread before a follow-up.** Before sending an addendum to
+  someone, fetch the thread again: a reply may have arrived in between
+  ("I would wait and see"), and an addendum that ignores it reads oddly.
+  Refer to it in the first sentence.
+- **One mail per audience.** An administrative request (a missing
+  section of a lab report) goes to the agreed contact alone; a medical
+  request that needs other departments goes in a separate mail with
+  those departments in copy. Check the drafts list before creating a
+  second draft to the same person: the first may already be sent.
 - **A letter that arrives as a photo.** A phone "scan" is a PDF with one
   image and no text layer: `pdfimages` extracts it at full resolution
   (`pdftoppm` at screen resolution is unreadable), then rotate and
