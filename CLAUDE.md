@@ -91,6 +91,9 @@ PACSonWEB code per study, a one-page course summary (two-column genpdf
 overflow, shared target directory),
 reports blocked in the PACSonWEB viewer but present as SR in the DICOM
 download, decoding JPEG Lossless radiographs with dcmdjpeg,
+how a stent infection arises and recurs, a CT downloaded before the
+report is signed, reslicing a CT volume, what an infiltrate is, a
+question sheet for a joint meeting, a second-opinion summary mail,
 a one-page weekly timetable with link annotations, calendar invites and threaded replies via the Gmail REST API — never the Gmail MCP connector or
 browser automation for that; the user has said so explicitly). They are
 not part of the document. Keep them free of any personal data: no patient

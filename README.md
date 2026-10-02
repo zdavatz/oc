@@ -532,6 +532,26 @@ percentiles, invert if `PhotometricInterpretation` is `MONOCHROME1`,
 and crop the lower lung zones at full resolution; the browser shows the
 same image at about a quarter of its size.
 
+A CT downloaded on the evening of the scan may lack the radiologist's
+report: only an Enhanced SR acquisition protocol and the dose report
+are inside, because the report is signed the next morning and then
+arrives as a separate PDF. Check `StudyDate` and the archive size
+before reading anything (a radiograph is about 10 MB, a CT several
+hundred): downloading the wrong study twice is easy. To look at a CT
+volume, decompress one thin series with `dcmdjpeg`, sort by
+`ImagePositionPatient[2]`, stack, and reslice coronally with the aspect
+ratio slice spacing over pixel spacing; montages of every tenth slice
+in lung and soft-tissue windows give the overview. A native scan (no
+contrast, chosen for a low eGFR) shows abscesses and peritoneal nodules
+poorly.
+
+Describe such images as provisional and correct yourself against the
+report: fat stranding around the kidneys or a "consolidation" seen by a
+layperson may be nothing, while a distended stomach was confirmed. An
+*infiltrate* is lung tissue that looks denser because the air spaces
+hold fluid or inflammatory cells, most often pneumonia; "small, new,
+possible" means exactly that.
+
 Ultrasound arrives differently: as small JPEG stills (about 700 pixels
 wide) attached to a secure mail, without the written report and without
 side labels. The DICOM originals add full resolution, adjustable
@@ -701,6 +721,22 @@ Two patterns that proved useful beyond PDFs:
   With half-private insurance the patient has a free choice of senior
   physician; asking to be told in advance of chief-physician rounds, so
   a relative can attend, is reasonable.
+
+## Preparing a joint meeting and a second opinion (notes)
+
+When the ward invites patient and relative to a meeting, accept at once
+and bring one printed page: questions as checkboxes in blocks (infection
+and course, stomach and nutrition, kidney/blood/stents, chemotherapy,
+organisation), the last known values in a grey line, room for notes.
+Update it when a report answers a question before the meeting. Check
+the printer name with `lpstat -a` before `lp -d`.
+
+For a second opinion from a physician elsewhere, reply in the thread in
+which the phone call was arranged: diagnosis with how it was secured,
+course in dated bullets, last labs, the latest imaging assessment, and
+at most three questions. Attach the original reports (imaging, cytology
+with immunohistochemistry, endoscopy with histology) and the one-page
+course summary; offer the rest.
 
 ## A one-page course summary (notes)
 
@@ -1024,6 +1060,32 @@ Sources: [KDIGO AKI guideline](https://kdigo.org/wp-content/uploads/2016/10/KDIG
 [AABB 2023](https://pubmed.ncbi.nlm.nih.gov/37824153/),
 [Ovarian cancer and ureteral obstruction](https://pmc.ncbi.nlm.nih.gov/articles/PMC11816973/),
 [Stent failure prediction](https://pmc.ncbi.nlm.nih.gov/articles/PMC10613761/).
+
+How a stent infection arises, and whether it returns:
+
+- Biofilm forms on every stent within days; colonisation rises with
+  dwell time (about 28 % at 15 to 30 days, 46 % at 30 to 60 days), often
+  with a sterile urine culture. Count dwell time from the first foreign
+  body, not from the last exchange.
+- In a prospective cohort, febrile stent-associated infections were
+  caused by E. coli (38 %), enterococci (14.5 %) and candida (9 %);
+  about a fifth went on to sepsis. Risk factors: female sex,
+  comorbidity, a urinary infection in the previous three months, a
+  bladder catheter. Prior antibiotics, steroids and raised glucose
+  favour candida.
+- It can recur as long as stents stay. What lowers the risk: treating
+  the current infection to the end, early removal of the bladder
+  catheter, a urine culture before and targeted antibiotic at each
+  exchange, a fixed exchange schedule. What removes it: a tumour that
+  shrinks under chemotherapy and frees the ureters.
+- Tumour and infection feed each other only indirectly: the tumour
+  obstructs and weakens, and raises CRP, leukocytes and platelets on its
+  own; the infection delays chemotherapy, costs strength and lowers the
+  kidney function that carboplatin dosing depends on.
+
+Sources: [Stent colonisation, prospective study](https://pmc.ncbi.nlm.nih.gov/articles/PMC11623820/),
+[Febrile stent-associated urinary infections](https://pubmed.ncbi.nlm.nih.gov/37160208/),
+[Stent failure in malignant obstruction](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5941491/).
 
 Cultures after urosepsis:
 
