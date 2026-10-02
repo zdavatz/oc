@@ -95,7 +95,8 @@ how a stent infection arises and recurs, a CT downloaded before the
 report is signed, reslicing a CT volume, what an infiltrate is, a
 question sheet for a joint meeting, a second-opinion summary mail,
 reading a liquid biopsy report (allele fraction versus tumour fraction,
-germline confirmation, arranging the germline test), what a joint meeting
+germline confirmation, arranging the germline test) and telling the
+family about a possibly inherited variant, what a joint meeting
 agrees and checking each delivered batch, echocardiography after
 enterococcal bacteraemia, soft food from a Japanese kitchen,
 reading the thread before a follow-up, one mail per audience,

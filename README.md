@@ -138,6 +138,20 @@ and do not state the patient's consent on her behalf: it is obtained in
 the counselling session. Thank whoever made the test possible, also the
 colleague outside the hospital who suggested it.
 
+Telling the family about a possibly inherited variant. First-degree
+relatives each have a 50 % chance of carrying it. BRCA1/2 variants raise
+the risk of breast and ovarian cancer in women and, mainly BRCA2, of
+prostate, male breast and pancreatic cancer; surveillance programmes
+exist for carriers. Write the message in this order: what was tested,
+the result and what is still unproven, what it means for the patient's
+treatment (usually good news), what it may mean for relatives, next
+steps. State plainly that nobody has to act now: confirmation in the
+patient comes first, then each relative decides after counselling, and
+testing is voluntary and targeted at the one variant. Attach the
+original report, and say that the summary is a relative's reading, not
+a medical assessment. Consider telling siblings in person before a mail
+goes round.
+
 ## Reading a hospital lab printout (notes)
 
 Generic checklist that came out of reading cumulative lab sheets for a
