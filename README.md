@@ -119,6 +119,17 @@ through.
 - A low tumour fraction also means a negative result would have
   excluded nothing.
 
+Other routes to the same answer. A germline test from blood would find
+an inherited BRCA variant directly, and guidelines recommend it for
+every high-grade serous carcinoma regardless of age. Tumour tissue
+(biopsy) is the gold standard and finds inherited and tumour-only
+variants; a cell-poor cell block from ascites rarely suffices. A liquid
+biopsy with a low tumour fraction finds an inherited variant only
+because it sits in the normal blood cells too; a tumour-only variant
+could have been missed. Family history (breast, ovarian, prostate,
+pancreatic cancer) is the fourth hint and the first thing the genetic
+counsellor asks for.
+
 Arranging the germline test. It can be done in the same hospital: the
 university hospital runs a genetic counselling clinic for hereditary
 breast and ovarian cancer inside its gynaecology department
@@ -534,6 +545,27 @@ evening; none replaces the ward physician.
   pneumonia. That fits coughing on position changes; ask what the next
   CT shows in the lung and whether a speech therapist should assess
   swallowing.
+- **Reading a cumulative lab report over several days.** Check which
+  column is which date before copying numbers (newest is usually left,
+  and urine and blood draws of the same day get separate columns). What
+  was passed on by phone as "slightly worse" can be a jump of 40 %; the
+  written series shows the real low point and the turn.
+- **Markers that appear once the team looks closer.** Cystatin C gives
+  a second eGFR that is often lower than the creatinine-based one in
+  inflammation and matters for carboplatin dosing. NT-proBNP is raised
+  by fluid load and by a weak kidney; a value that halves is good news.
+  Ferritin above 1000 with a normal transferrin saturation means anaemia
+  of inflammation, not iron deficiency. Platelets climbing above 700
+  are usually reactive (infection, tumour) but raise the question of
+  thrombosis prophylaxis. Albumin rising by a few g/l goes with the
+  falling CRP. A urine culture with a low candida count and "mixed
+  flora, no dominant organism" is read as contamination.
+- **Comparing with the last discharge.** Take the last value before
+  that discharge and the baseline the discharge letter states, not the
+  admission peak. Count the days since the procedure both times. After
+  two injuries in a row the kidney may settle at a higher creatinine
+  than before; the oncologist needs to know which eGFR the chemotherapy
+  dose will be based on.
 - **Soft, salty, lukewarm food** suits a sore oesophagus and loose
   stool: mashed potato, egg dishes, broth with semolina or egg, puréed
   vegetable soups with cream, polenta, risotto, poached fish, cottage
@@ -844,6 +876,9 @@ contain the blood count only; search the text for creatinine, CRP and
 potassium before assuming the chemistry is there, and ask the named
 physician for the missing section in one short mail that first thanks
 for what arrived.
+When a complete batch arrives, a two-line thank-you that confirms
+completeness and asks nothing keeps the channel friendly; questions
+wait for rounds.
 
 ## A one-page course summary (notes)
 
@@ -866,6 +901,12 @@ reuse the first one's compiled dependencies offline by copying
 Update the page whenever a fact changes (form submitted, new values),
 and write where a statement came from when it is not a document
 ("by phone").
+
+A comparison table that grows by a day each time needs a different shape
+after a week: merge early days into ranges ("day +2 to +6"), give the
+latest days their own row and mark only the current value in red, say in
+the legend what red means, and move whole blocks between the two columns
+until both fit; margins come last.
 
 ## A one-page weekly timetable (notes)
 
