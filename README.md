@@ -806,6 +806,18 @@ Two patterns that proved useful beyond PDFs:
   request that needs other departments goes in a separate mail with
   those departments in copy. Check the drafts list before creating a
   second draft to the same person: the first may already be sent.
+- **Sent or draft, and which period.** Say in the first sentence
+  whether a mail was sent or only drafted. Before asking for "today's
+  values" under an every-three-days agreement, ask which period is
+  meant (everything since the last batch); otherwise a second mail has
+  to correct the first.
+- **Escalating a medical question in writing.** Check the last mail for
+  what was actually announced ("we will re-check tomorrow" is not "the
+  operation is tomorrow"). Give today's values, the pattern, your own
+  earlier question and the clinic's answer with their dates, then at
+  most three questions. Copy the in-house expert and the acting
+  director with one sentence each on why. Do not state the family's
+  agreement to a procedure unless asked to; consent is the patient's.
 - **A letter that arrives as a photo.** A phone "scan" is a PDF with one
   image and no text layer: `pdfimages` extracts it at full resolution
   (`pdftoppm` at screen resolution is unreadable), then rotate and
@@ -1234,6 +1246,53 @@ How a stent infection arises, and whether it returns:
 Sources: [Stent colonisation, prospective study](https://pmc.ncbi.nlm.nih.gov/articles/PMC11623820/),
 [Febrile stent-associated urinary infections](https://pubmed.ncbi.nlm.nih.gov/37160208/),
 [Stent failure in malignant obstruction](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5941491/).
+
+When the same stent fails twice:
+
+- Kidney values that saw up and down within two days (a third better,
+  then half again worse) point to intermittent drainage, not to a
+  kidney that is slowly recovering. A day without a blood draw hides the
+  start. If the second failure comes after the same interval as the
+  first (here about thirteen days after each insertion), say so: it
+  argues against "it was only the infection".
+- An ultrasound still with several dark, branching spaces in the kidney
+  shows dilated calyces, i.e. back-pressure, even without a report.
+- With rising creatinine, rising CRP and back-pressure, an obstructed
+  infected kidney needs drainage, not another day of observation. Out
+  of hours that question goes to the on-call urologist by phone; a mail
+  is read the next morning.
+- What the comparisons say (malignant obstruction): nephrostomy fails
+  less often than a retrograde stent (meta-analysis 2024, 18 studies,
+  1228 patients); infections, blockage and unplanned exchanges do not
+  differ; stents mean a shorter procedure and stay and dislodge less;
+  quality of life is similar, though patients who know both tend to
+  prefer internal stents. After a failed stent, a new tandem pair held
+  in only about 43 % in one series, worse with a pelvic primary and a
+  distal obstruction. Metal stents stay open longer but migrate,
+  encrust and cause colic more often, and are awkward in active
+  infection. There is no agreed standard, and a search for what one
+  famous clinic does may simply return nothing; say so.
+- Bilateral nephrostomies with removal of the stents are therefore the
+  usual answer after a second failure with infection: drainage no
+  longer depends on tumour pressure, infected urine runs off, the tubes
+  can be flushed and sampled. They are not final: once the tumour
+  shrinks under chemotherapy an antegrade stent or removal becomes
+  possible. Before the puncture ask about transfusion if haemoglobin is
+  in the sixties, afterwards about new cultures from the renal pelvis,
+  who trains family and home care, and what it means for chemotherapy.
+- Finding the in-house expert: query Europe PMC for the topic with an
+  affiliation filter, fetch `resultType=core` and count authors whose
+  own affiliation names the hospital. One name usually dominates;
+  co-authors with one paper are not specialists. Check the specialties
+  on the hospital's team page, and note that a letter signed by a
+  director "a.i." means the director is absent.
+
+Sources: [Stent versus nephrostomy, meta-analysis 2024](https://pubmed.ncbi.nlm.nih.gov/38830555/),
+[Nephrostomy versus double-J, meta-analysis 2022](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9747026/),
+[Tandem stents: failure and replacement](https://pmc.ncbi.nlm.nih.gov/articles/PMC10455996/),
+[Quality of life, tandem stents versus nephrostomy](https://link.springer.com/article/10.1007/s00520-022-07354-2),
+[Tandem, metal or metal-mesh stents](https://onlinelibrary.wiley.com/doi/10.1111/iju.12795),
+[No standard approach, UK multicentre paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10895405/).
 
 Cultures after urosepsis:
 

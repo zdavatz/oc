@@ -103,6 +103,9 @@ reading the thread before a follow-up, one mail per audience,
 other routes to a BRCA result, reading a cumulative lab report and the
 markers that come with it (cystatin C, NT-proBNP, ferritin, platelets),
 comparing with the last discharge, a growing comparison table,
+when the same stent fails twice (saw-tooth kidney values, stent versus
+nephrostomy evidence, finding the in-house expert), sent versus draft
+and which period, escalating a medical question in writing,
 a one-page weekly timetable with link annotations, calendar invites and threaded replies via the Gmail REST API — never the Gmail MCP connector or
 browser automation for that; the user has said so explicitly). They are
 not part of the document. Keep them free of any personal data: no patient
