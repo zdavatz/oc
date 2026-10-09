@@ -106,6 +106,10 @@ comparing with the last discharge, a growing comparison table,
 when the same stent fails twice (saw-tooth kidney values, stent versus
 nephrostomy evidence, finding the in-house expert), sent versus draft
 and which period, escalating a medical question in writing,
+after bilateral nephrostomies, a breakthrough bacteraemia with a
+different enterococcus and vancomycin levels, CRP ranges and lag,
+family updates with the original mails, an update for practice staff,
+the physiotherapy prescription,
 a one-page weekly timetable with link annotations, calendar invites and threaded replies via the Gmail REST API — never the Gmail MCP connector or
 browser automation for that; the user has said so explicitly). They are
 not part of the document. Keep them free of any personal data: no patient

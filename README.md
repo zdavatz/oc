@@ -566,6 +566,15 @@ evening; none replaces the ward physician.
   two injuries in a row the kidney may settle at a higher creatinine
   than before; the oncologist needs to know which eGFR the chemotherapy
   dose will be based on.
+- **CRP: lower is better.** Under 5 mg/l is normal, above 100 usually a
+  bacterial infection, above 200 the range of sepsis. It lags one to
+  two days behind and a procedure pushes it up by itself, so a rising
+  CRP the day after drainage, with leukocytes and creatinine already
+  falling, is not yet bad news; it has to fall within two to three days.
+- **Anaemia work-up in one line.** Reticulocytes raised in per cent but
+  a production index below 2 means the marrow is not keeping up; normal
+  B12 and folate and a high ferritin point to inflammation and illness
+  rather than a deficiency. Around 60 g/l the question is transfusion.
 - **Soft, salty, lukewarm food** suits a sore oesophagus and loose
   stool: mashed potato, egg dishes, broth with semolina or egg, puréed
   vegetable soups with cream, polenta, risotto, poached fish, cottage
@@ -818,6 +827,22 @@ Two patterns that proved useful beyond PDFs:
   most three questions. Copy the in-house expert and the acting
   director with one sentence each on why. Do not state the family's
   agreement to a procedure unless asked to; consent is the patient's.
+- **Family updates with the originals.** Relatives may ask for the
+  physicians' own mails. Quote the mail with date and time in the
+  update and attach every original file, renamed with a date prefix and
+  without quotes or umlauts (two lab reports of the same day get the
+  draw time in the name), plus the mail itself as `.eml`.
+- **An update for the practice staff.** Ask what it is for before
+  writing. What a secretary may know and what she should tell patients
+  are two texts: medical detail stays with her, patients get one
+  sentence ("absent for health reasons until further notice") and,
+  where it exists, a deputy to turn to.
+- **The physiotherapist asks for the prescription.** Treatments at home
+  are billed against the hospital's prescription from the discharge
+  papers. Find it in the photographed papers, cut the single page out
+  with `pdfseparate`, check that stamp and signature are legible, and
+  send it. A first prescription covers at most nine sessions and must
+  be started within five weeks, so the next discharge needs a new one.
 - **A letter that arrives as a photo.** A phone "scan" is a PDF with one
   image and no text layer: `pdfimages` extracts it at full resolution
   (`pdftoppm` at screen resolution is unreadable), then rotate and
@@ -1294,6 +1319,21 @@ Sources: [Stent versus nephrostomy, meta-analysis 2024](https://pubmed.ncbi.nlm.
 [Tandem, metal or metal-mesh stents](https://onlinelibrary.wiley.com/doi/10.1111/iju.12795),
 [No standard approach, UK multicentre paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10895405/).
 
+After bilateral nephrostomies:
+
+- The operation report says which side was actually obstructed (the
+  ultrasound on the table: one collecting system slim, the other grade
+  II-III), the tube size, that both drained clear urine, and the plan:
+  heparin prophylaxis, bladder catheter out from day one, tube exchange
+  in six to eight weeks under local anaesthesia.
+- Normal in the first days: slightly blood-tinged urine, a lot of urine
+  (the team balances fluid and electrolytes), a pulling feeling at the
+  puncture sites, appetite returning. Tell the nurse at once about
+  fever or chills, a bag that stops filling, a kinked or displaced
+  tube, bright red urine or clots, strong flank pain.
+- Creatinine should fall within one to three days (a quarter in the
+  first day is a good sign); leukocytes follow, CRP last.
+
 Cultures after urosepsis:
 
 - If the same organism grows in all blood-culture bottles and in both
@@ -1309,6 +1349,17 @@ Cultures after urosepsis:
   moderate image quality lowers the suspicion of endocarditis but does
   not exclude small vegetations; follow-up blood cultures reported as
   "result follows" are simply not finished (two to five days).
+- A flare under treatment can be a different organism. *Enterococcus
+  faecium* in all bottles after weeks of piperacillin-tazobactam is a
+  breakthrough: it is usually ampicillin-resistant, so the previous
+  drug never covered it, and vancomycin takes over. A short time to
+  positivity (11 to 13 hours) means a high load. The blood-culture panel
+  PCR lists resistance genes only when found, so an empty line under
+  "resistance genes" means no vanA/B. Vancomycin is dosed by blood level
+  because the kidney clears it and too much harms the kidney; a first
+  level drawn early and below 10 mg/l is not yet a verdict. A second
+  enterococcal bacteraemia reopens the questions of endocarditis
+  (transoesophageal echo) and of treatment duration.
 - *Candida* in the renal pelvis with stents is often colonisation. The
   IDSA 2016 guideline treats asymptomatic candiduria only in neutropenia
   (i.e. once chemotherapy lowers the white count), before urological
