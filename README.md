@@ -843,6 +843,10 @@ Two patterns that proved useful beyond PDFs:
   with `pdfseparate`, check that stamp and signature are legible, and
   send it. A first prescription covers at most nine sessions and must
   be started within five weeks, so the next discharge needs a new one.
+- **Who asked for what.** Keep apart what a third party requested and
+  what was merely suggested here. A follow-up listed as "still open"
+  can look like someone's request weeks later; when asked, say plainly
+  that it was a suggestion and that nothing arrived from that person.
 - **A letter that arrives as a photo.** A phone "scan" is a PDF with one
   image and no text layer: `pdfimages` extracts it at full resolution
   (`pdftoppm` at screen resolution is unreadable), then rotate and
@@ -860,6 +864,15 @@ Two patterns that proved useful beyond PDFs:
   fillings, braces, crowns, screws, wedges, plates, wires, pins, clips
   and connectors; ureteric stents are not among them. Swissmedic
   supervises hospitals on this.
+  Operation reports rarely name a manufacturer: they give size and
+  length ("Ch 7/28 cm", "10 Ch nephrostomy, balloon 2.5 ml") and at
+  most the brand of the guide wire, which does not stay in the body.
+  When a first request goes unanswered, repeat it as a numbered list,
+  one line per device with date and side, and include what has been
+  added since (nephrostomy tubes that stay six to eight weeks are
+  implantable by the 30-day definition). Before asking "was brand X
+  used?", check what the clinic already wrote: the stent model may have
+  been named in an earlier mail, so only the new device is open.
 - **Draft vanished before sending.** `drafts.send` answering "Message
   not a draft" usually means the user already sent it from the Gmail UI,
   often with recipients added. Check the Sent folder before resending.
