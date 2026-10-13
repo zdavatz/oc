@@ -130,6 +130,31 @@ could have been missed. Family history (breast, ovarian, prostate,
 pancreatic cancer) is the fourth hint and the first thing the genetic
 counsellor asks for.
 
+What a liquid biopsy can and cannot do later. Press articles describe
+two further uses: following treatment by the amount of tumour DNA in
+blood, and catching resistance early. With a tumour fraction below 1 %
+at the start there is little to follow, so in ovarian cancer the blood
+marker CA-125 remains the yardstick; a repeat liquid biopsy becomes
+useful when resistance is suspected, because a tumour can revert a BRCA
+mutation under platinum or a PARP inhibitor. Liquid biopsy is not a
+standard insurance benefit; check whether a cost approval exists.
+
+The trial usually cited is CUPISCO (Lancet 2024): in unfavourable
+cancer of unknown primary, patients with disease control after three
+cycles of platinum were randomised to molecularly guided therapy or
+continued chemotherapy; progression-free survival was 6.1 versus 4.4
+months (hazard ratio 0.72), and the authors recommend comprehensive
+genomic profiling at diagnosis. It supports profiling early but does
+not describe every case: serous carcinoma of the peritoneum in women is
+a favourable subset that guidelines treat like ovarian cancer. Check a
+newspaper's summary against the abstract; "survival two months longer"
+was progression-free survival, with overall survival not yet reported.
+A journal link with a PII resolves through its DOI in Europe PMC
+(`DOI:"10.1016/S0140-6736(24)00814-6"`), which returns the abstract
+when the full text is not open.
+
+Source: [CUPISCO, Lancet 2024](https://pubmed.ncbi.nlm.nih.gov/39096924/).
+
 Arranging the germline test. It can be done in the same hospital: the
 university hospital runs a genetic counselling clinic for hereditary
 breast and ovarian cancer inside its gynaecology department
@@ -560,6 +585,12 @@ evening; none replaces the ward physician.
   thrombosis prophylaxis. Albumin rising by a few g/l goes with the
   falling CRP. A urine culture with a low candida count and "mixed
   flora, no dominant organism" is read as contamination.
+- **"Best values since ..." needs the earlier series.** Before writing
+  that, look up the previous good phase: the day before the first
+  discharge may have been better in one marker (creatinine, CRP) and
+  worse in another (leukocytes), and a value from that last day is easy
+  to overlook. "Best since readmission, about where she stood before
+  the first discharge" is usually the accurate sentence.
 - **Comparing with the last discharge.** Take the last value before
   that discharge and the baseline the discharge letter states, not the
   admission peak. Count the days since the procedure both times. After
