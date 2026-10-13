@@ -155,6 +155,26 @@ when the full text is not open.
 
 Source: [CUPISCO, Lancet 2024](https://pubmed.ncbi.nlm.nih.gov/39096924/).
 
+Why bleak press figures need not apply. Articles on cancer of unknown
+primary quote the survival of the unfavourable form. A woman with
+peritoneal carcinomatosis belongs to the favourable subset when four
+things hold: the cell type is known (high-grade serous, confirmed by a
+second pathologist), the origin is gynaecological (PAX8 positive, CDX2
+negative, endoscopy without a tumour, CA-125 raised with normal
+CA 19-9), an established treatment exists for exactly this picture
+(guidelines treat it like ovarian cancer, with carboplatin and
+paclitaxel), and, where found, a BRCA mutation adds platinum
+sensitivity and a PARP inhibitor. When telling the family, say what
+"favourable" means (a known treatment and a better chance of response)
+and what it does not (the disease stays advanced; age, kidney function
+and a delayed start still count), and leave prognosis to the
+oncologist. The hospital may not use the term at all and simply speak
+of suspected ovarian or peritoneal cancer; for treatment it comes to
+the same.
+
+Sources: [ESMO guideline, cancers of unknown primary site](https://www.annalsofoncology.org/article/S0923-7534(19)47185-8/fulltext),
+[Peritoneal carcinomatosis of unknown primary site in women, 1989](https://doi.org/10.7326/0003-4819-111-3-213).
+
 Arranging the germline test. It can be done in the same hospital: the
 university hospital runs a genetic counselling clinic for hereditary
 breast and ovarian cancer inside its gynaecology department

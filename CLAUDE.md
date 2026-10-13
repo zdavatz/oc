@@ -114,6 +114,8 @@ repeating an implant-card request per device (reports name no
 manufacturer), who asked for what,
 later uses of a liquid biopsy and the CUPISCO trial behind press
 reports, checking "best values since" against the earlier series,
+why bleak press figures on unknown-primary cancer need not apply (the
+favourable serous peritoneal subset),
 a one-page weekly timetable with link annotations, calendar invites and threaded replies via the Gmail REST API — never the Gmail MCP connector or
 browser automation for that; the user has said so explicitly). They are
 not part of the document. Keep them free of any personal data: no patient
