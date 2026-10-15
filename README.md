@@ -981,6 +981,57 @@ When a complete batch arrives, a two-line thank-you that confirms
 completeness and asks nothing keeps the channel friendly; questions
 wait for rounds.
 
+Choosing another hospital: what the evidence supports. When cooperation
+between departments fails, it is tempting to look abroad for newer
+hospitals or newer sequencers. No study compares hospitals for
+peritoneal carcinomatosis with ureteral obstruction. The one measured
+factor is case volume, and the data are observational:
+
+- A 2025 review of more than 100,000 patients found longer survival at
+  high-volume hospitals in 13 of 15 studies.
+- In Belgium, the lowest-volume centres had a 47 % higher five-year
+  hazard of death (HR 1.47, 95 % CI 1.11–1.93).
+- In Korea, 20 or more operations a year went with a 21 % lower
+  mortality (aHR 0.79). Location added nothing.
+
+Sequencing is not a reason to travel. Once a liquid biopsy is reported,
+only germline confirmation remains, and any accredited genetics lab can
+do it. A frail patient on intravenous antibiotics with nephrostomies is
+rarely fit for a long flight, and travel delays chemotherapy. A
+second opinion based on the records, from a high-volume centre, is
+faster. Ask any new centre how many ovarian cancer patients it treats
+each year.
+
+Stent versus nephrostomy. Standard stents fail in almost half of
+malignant ureteral obstructions. In a study of 91 patients, invasion
+of the bladder and severe hydronephrosis before stenting predicted
+failure. Three-month freedom from failure was about 95 % with neither
+factor, 72 % with one and 56 % with both. The authors advise a
+nephrostomy first in the high-risk group. Published median survival
+after diversion (3–16 months) comes mostly from recurrent and mixed
+cancers. It does not transfer to a woman who has not yet had
+chemotherapy.
+
+Older women. The study usually cited for "only 51 % get optimal
+treatment" (FRANCOGYN, 147 women aged 70 and over) compares women aged
+75 and over with women aged 70–74, not older with younger women in
+general. Its "optimal" means surgery plus chemotherapy in either order.
+It did not examine whether the difference was undertreatment or a
+reasoned choice, and its percentages do not quite match its counts
+(49/65, 40/82). The firmer finding is that comorbidity counts more
+than age: five-year survival was 62 % with a modified Charlson index
+of 3 or less and 30 % above 3. The authors advise a geriatric
+assessment before treatment from age 75. Check such figures against
+the full text before passing them on; a search-engine summary had the
+comparison groups wrong.
+
+Sources: [hospital volume review, 2025](https://www.frontiersin.org/articles/10.3389/fsurg.2025.1635555/full),
+[Belgium](https://researchexchange.ocrahope.org/papers/j-ejca-2023-113402),
+[Korea](https://researchexchange.ocrahope.org/papers/jgo-2026-37-e58),
+[predictors of stent failure](https://www.ncbi.nlm.nih.gov/pubmed/30298199),
+[malignant upper urinary tract obstruction, review 2024](https://bjui-journals.onlinelibrary.wiley.com/doi/10.1002/bco2.340),
+[FRANCOGYN 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7291201/).
+
 ## A one-page course summary (notes)
 
 After a transfer and a readmission nobody in the family holds the whole
